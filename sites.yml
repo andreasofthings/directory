@@ -9,6 +9,8 @@ Sites:
         URL: http://arstechnica.com
       - Name: Engadget
         URL: https://www.engadget.com
+      - Name: Gizmodo
+        URL: http://www.gizmodo.com
       - Name: Macrumors
         URL: http://www.macrumors.com
       - Name: Slashdot
@@ -19,6 +21,8 @@ Sites:
         URL: http://www.techmeme.com
       - Name: Techcrunch
         URL: https://techcrunch.com
+      - Name: Techhive
+        URL: http://www.techhive.com
       - Name: Techradar
         URL: http://www.techradar.com
   Deutsch:
