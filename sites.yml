@@ -1,32 +1,38 @@
 %YAML 1.2
 ---
 Sites:
-  English:
-    Tech:
-      - Name: 9to5Mac
-        URL: https://9to5mac.com
-      - Name: Ars Technica
-        URL: http://arstechnica.com
-      - Name: Engadget
-        URL: https://www.engadget.com
-      - Name: Gizmodo
-        URL: http://www.gizmodo.com
-      - Name: Macrumors
-        URL: http://www.macrumors.com
-      - Name: Slashdot
-        URL: http://www.slashdot.org
-      - Name: The Verge
-        URL: http://www.theverge.com
-      - Name: Techmeme
-        URL: http://www.techmeme.com
-      - Name: Techcrunch
-        URL: https://techcrunch.com
-      - Name: Techhive
-        URL: http://www.techhive.com
-      - Name: Techradar
-        URL: http://www.techradar.com
-  Deutsch:
-    Tech:
-      - Name: Heise.de
-        URL: https://www.heise.de
+  - Name: 9to5Mac
+    URL: https://9to5mac.com
+  - Name: Ars Technica
+    URL: http://arstechnica.com
+  - Name: Der Spiegel
+    URL: https://www.spiegel.de
+  - Name: Engadget
+    URL: https://www.engadget.com
+  - Name: Gizmodo
+    URL: http://www.gizmodo.com
+  - Name: Heise.de
+    URL: https://www.heise.de
+  - Name: Macrumors
+    URL: http://www.macrumors.com
+  - Name: Slashdot
+    URL: http://www.slashdot.org
+  - Name: Sueddeutsche Zeitung
+    URL: https://www.sueddeutsche.de
+  - Name: The Verge
+    URL: http://www.theverge.com
+  - Name: Techmeme
+    URL: http://www.techmeme.com
+  - Name: Techcrunch
+    URL: https://techcrunch.com
+  - Name: Techhive
+    URL: http://www.techhive.com
+  - Name: Techradar
+    URL: http://www.techradar.com
+  - Name: The Economist
+    URL: https://www.economist.com
+  - Name: The Guardian (International)
+    URL: https://www.theguardian.com/international
+  - Name: Visual Capitalist
+    URL: http://www.visualcapitalist.com
 
