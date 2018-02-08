@@ -1,240 +1,881 @@
-- title: 9to5Mac
-  url: https://9to5mac.com
-- title: Ars Technica
-  url: http://arstechnica.com
-- title: SPIEGEL ONLINE - Aktuelle Nachrichten
-  url: https://www.spiegel.de
-- title: Engadget
-  url: https://www.engadget.com
-- title: Gizmodo - We come from the future.
-  url: http://www.gizmodo.com
-- title: "\n        heise online - IT-News, Nachrichten und Hintergr\xFCnde\n    heise\
-    \ online\n"
-  url: https://www.heise.de
-- title: 'Mac Rumors: Apple Mac iOS Rumors and News You Care About'
-  url: http://www.macrumors.com
-- title: 'Slashdot: News for nerds, stuff that matters'
-  url: http://www.slashdot.org
-- title: "Nachrichten aus Politik, Kultur, Wirtschaft und Sport - S\xFCddeutsche.de"
-  url: https://www.sueddeutsche.de
-- title: None
-  url: https://www.theverge.com
-- title: Techmeme
-  url: http://www.techmeme.com
-- title: TechCrunch - The latest technology news and information on startups
-  url: https://techcrunch.com
-- title: TechHive - News, reviews and tips about smart homes, home security, and home
-    entertainment
-  url: http://www.techhive.com
-- title: TechRadar | The source for tech buying advice | TechRadar
-  url: http://www.techradar.com
-- title: The Economist - World News, Politics, Economics, Business & Finance
-  url: https://www.economist.com
-- title: News, sport and opinion from the Guardian's global edition | The Guardian
-  url: https://www.theguardian.com/international
-- title: 403 Forbidden
-  url: http://www.visualcapitalist.com
-- title: "WRINT: Wer redet ist nicht tot | Gespr\xE4che zum Runterladen (vulg. Podcast)"
-  url: http://www.wrint.de/
-- title: neumeier.org
-  url: https://neumeier.org/
-- title: Metaebene Personal Media | Es gilt das gesprochene Wort
-  url: http://metaebene.me/
-- title: SPIEGEL ONLINE - Aktuelle Nachrichten
-  url: https://www.spiegel.de/
-- title: Frankfurter Allgemeine Zeitung
-  url: https://www.faz.net
-- title: Methodisch inkorrekt | der methodisch inkorrekte Wissenschaftspodcast
-  url: http://www.minkorrekt.de
-- title: "\u2606 No more cubes."
-  url: https://nomorecubes.net
-- title: "B\xF6rse Aktuell | Aktien, Kurse, Charts und News | boerse.ARD.de"
-  url: http://boerse.ard.de/
-- title: "WELT - Nachrichten, Hintergr\xFCnde, News & N24-Videos"
-  url: http://welt.de/
-- title: manager magazin - Wirtschaftsnachrichten
-  url: http://www.manager-magazin.de/
-- title: Handelsblatt
-  url: http://www.handelsblatt.com/
-- title: "\n\tPHD Comics: On the side"
-  url: http://www.phdcomics.com/
-- title: 'xkcd: Meltdown and Spectre'
-  url: http://xkcd.com/
-- title: 'Competitor.com: Marathon Training Plans, Running Shoe Reviews, Nutrition...'
-  url: http://running.competitor.com/
-- title: A Trail Runner's Blog
-  url: http://runtrails.blogspot.com/
-- title: "Runblogger \u2013 Running Shoes, Gear Reviews, and Posts on the Science\
-    \ of the Sport"
-  url: http://www.runblogger.com/
-- title: DC Rainmaker
-  url: http://www.dcrainmaker.com/
-- title: Home - Web Application Security Consortium
-  url: http://www.webappsec.org/
-- title: SecuriTeam.com - A Free Accurate and Independent Source of Vulnerability
-    Information
-  url: http://www.securiteam.com
-- title: Packet Storm
-  url: http://packetstormsecurity.org/
-- title: Financial Cryptography
-  url: https://financialcryptography.com/
-- title: Resources and Tools for IT Professionals | TechNet
-  url: http://www.technet.com/
-- title: Schneier on Security
-  url: http://www.schneier.com/
-- title: CXSECURITY.COM Free Security List
-  url: http://securityreason.com/
-- title: 'VICELAND: The new TV channel from VICE.'
-  url: http://www.viceland.com/
-- title: 'VICE - Unbequemer Journalismus und Dokus zu allem, was wichtig ist auf der
-    Welt. '
-  url: http://www.vice.com/
-- title: 'Slashdot: News for nerds, stuff that matters'
-  url: http://slashdot.org/
-- title: Guy's Pod
-  url: http://www.guypo.com/
-- title: PORNOANWALT
-  url: http://www.pornoanwalt.de/
-- title: law blog
-  url: http://www.lawblog.de/
-- title: "BASIC thinking \xE2\x80\x93 Online-Magazin f\xC3\xBCr Social Media, Marketing\
-    \ und Business"
-  url: http://www.basicthinking.de/
-- title: Lifehacker - Tips, tricks and downloads for getting things done
-  url: http://lifehacker.com/
-- title: Claire Diaz Ortiz - Author, Speaker, World Traveler
-  url: http://clairediazortiz.com/
-- title: ':::denn sie wissen nicht, was sie tun sollen:::'
-  url: http://rebellmarkt.blogger.de/
-- title: Daring Fireball
-  url: http://daringfireball.net/
-- title: Fefes Blog
-  url: http://blog.fefe.de/
-- title: "MUCBOOK - Das M\xFCnchner Stadtmagazin"
-  url: http://www.mucbook.de/
-- title: "U-Bahn M\xFCnchen - Aktuelles"
-  url: http://www.muenchnerubahn.de/
-- title: "ISARBLOG - das M\xFCnchen Blog"
-  url: http://www.isarblog.de/
-- title: "Schlaflos in M\xFCnchen \u2013 der Podcast mit Annik Rubens  "
-  url: http://www.schlaflosinmuenchen.com/
-- title: "M\xFCnchenBlogger - Das Stadtblog f\xFCr M\xFCnchen"
-  url: http://www.muenchenblogger.de/
-- title: "89 \u2014 Ich bin M\xFCnchen"
-  url: http://www.achtneun.com/
-- title: CodePlex - Open Source Project Hosting
-  url: http://www.codeplex.com/
-- title: Google Open Source Blog
-  url: http://google-opensource.blogspot.com/
-- title: Welcome to LWN.net [LWN.net]
-  url: http://lwn.net/
-- title: Homepage | Opensource.com
-  url: http://opensource.com/
-- title: Planet Debian
-  url: http://planet.debian.org/
-- title: When we share, everyone wins - Creative Commons
-  url: http://creativecommons.org/
-- title: Linux Journal | The Original Magazine of the Linux Community
-  url: http://www.linuxjournal.com/
-- title: Motherboard - The future is wonderful, the future is terrifying.
-  url: http://www.motherboard.tv/
-- title: Tech News & Analysis - Wall Street Journal
+- feeds: []
+  title: My Site
+  url: http://agilesysadmin.net
+- feeds: []
+  title: Tech News & Analysis - Wall Street Journal
   url: http://allthingsd.com/
-- title: Alltagsforschung - Wissenschaft, die Wissen schafft
-  url: http://www.alltagsforschung.de/
-- title: "F\xFCr Jobcoaches und Trainer in Arbeitsmarktprojekten"
-  url: http://jobtrainer-blog.de/
-- title: Psychologie Nachrichten Heute - Ratgeber und Lexikon
-  url: http://psychologienachrichten.de/
-- title: "Entscheiderblog \u2013 Mit \xFCber 900 Artikeln eine der gr\xF6\xDFten deutschsprachigen\
-    \ Quellen zum Thema Entscheidung \u2013 Entscheidungen erfolgreich gestalten"
-  url: http://www.entscheiderblog.de/
-- title: Anders bewerben - Tipps vom Bewerbungshelfer
-  url: http://www.jova-nova.com/
-- title: Hays - Blog zur Arbeitswelt
-  url: http://blog.hays.de/
-- title: Der Postillon
-  url: http://www.der-postillon.com/
-- title: "Unternehmenskommunikation, PR, Social Media, Content-Marketing - D\xFCsseldorf"
-  url: http://www.kerstin-hoffmann.de/
-- title: Recrutainment Blog - Online-Assessment, Berufsorientierung & Employer Branding
-  url: http://blog.recrutainment.de/
-- title: Facebook Marketing Blog - Thomas Hutter Facebook Marketing Experte - Aktuelle
-    News zu Facebook
-  url: http://www.thomashutter.com/index.php/
-- title: "Elke Fleing: Texte, Seminare, Vortr\xE4ge, Coachings | \u2713 Kommunikation\
+- feeds:
+  - href: https://elke-fleing.de/feed/
+    title: "Elke Fleing \xBB Feed"
+    type: application/rss+xml
+  - href: https://elke-fleing.de/comments/feed/
+    title: "Elke Fleing \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "Elke Fleing: Texte, Seminare, Vortr\xE4ge, Coachings | \u2713 Kommunikation\
     \ \u2713 Digitalisierung \u2713 Positionierung"
   url: http://berufung-selbststaendig.de/
-- title: PR-Blogger
-  url: http://pr-blogger.de/
-- title: Personalmarketing und Employer Branding aktuell, kompetent, authentisch
-  url: http://personalmarketing2null.de/
-- title: Wollmilchsau GmbH - wir machen den Jobspreader
-  url: http://www.wollmilchsau.de/
-- title: Redner, Trainer, Buchautor - Joachim Rumohr
-  url: http://www.rumohr.de/
-- title: ' Personalmarketingblog'
-  url: http://www.personalmarketingblog.de/
-- title: "netzpolitik.org \u2013 Plattform f\xFCr digitale Freiheitsrechte"
-  url: http://netzpolitik.org/
-- title: None
-  url: http://www.welt.de/export/
-- title: 403 Forbidden
-  url: http://www.bundesregierung.de/
-- title: "antibuerokratieteam.net \u2013 Relaunch Liberty."
-  url: http://www.antibuerokratieteam.net/
-- title: Dem Lobbyismus Schranken setzen | LobbyControl
-  url: http://www.lobbycontrol.de/blog/
-- title: ' Spiegelfechter'
-  url: http://www.spiegelfechter.com/
-- title: 'Knowledge Brings Fear | At some point in time, you recognize that knowing
+- feeds:
+  - href: /rss.xml
+    title: Text-Feed
+    type: application/rss+xml
+  - href: /rss.xml?html
+    title: HTML-Feed
+    type: application/rss+xml
+  title: Fefes Blog
+  url: http://blog.fefe.de/
+- feeds:
+  - href: https://blog.hays.de/feed/
+    title: "Blog zur Arbeitswelt \xBB Feed"
+    type: application/rss+xml
+  - href: https://blog.hays.de/comments/feed/
+    title: "Blog zur Arbeitswelt \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: Hays - Blog zur Arbeitswelt
+  url: http://blog.hays.de/
+- feeds:
+  - href: https://blog.recrutainment.de/feed/
+    title: "Recrutainment Blog \xBB Feed"
+    type: application/rss+xml
+  - href: https://blog.recrutainment.de/comments/feed/
+    title: "Recrutainment Blog \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: Recrutainment Blog - Online-Assessment, Berufsorientierung & Employer Branding
+  url: http://blog.recrutainment.de/
+- feeds:
+  - href: https://boerse.ard.de/index~rss.xml
+    title: boerse.ARD.de RSS-Feed
+    type: application/rss+xml
+  title: "B\xF6rse Aktuell | Aktien, Kurse, Charts und News | boerse.ARD.de"
+  url: http://boerse.ard.de/
+- feeds:
+  - href: http://clairediazortiz.com/feed/
+    title: "Claire Diaz Ortiz \xBB Feed"
+    type: application/rss+xml
+  - href: http://clairediazortiz.com/comments/feed/
+    title: "Claire Diaz Ortiz \xBB Comments Feed"
+    type: application/rss+xml
+  title: Claire Diaz Ortiz - Author, Speaker, World Traveler
+  url: http://clairediazortiz.com/
+- feeds:
+  - href: https://creativecommons.org/feed/
+    title: "Creative Commons \xBB Feed"
+    type: application/rss+xml
+  - href: https://creativecommons.org/comments/feed/
+    title: "Creative Commons \xBB Comments Feed"
+    type: application/rss+xml
+  title: When we share, everyone wins - Creative Commons
+  url: http://creativecommons.org/
+- feeds:
+  - href: http://frank.geekheim.de/?feed=rss2
+    title: "Knowledge Brings Fear \xBB Feed"
+    type: application/rss+xml
+  - href: http://frank.geekheim.de/?feed=comments-rss2
+    title: "Knowledge Brings Fear \xBB Comments Feed"
+    type: application/rss+xml
+  title: 'Knowledge Brings Fear | At some point in time, you recognize that knowing
     more does not necessarily make you more happy. This weblog is about both: knowledge
     and happiness.'
   url: http://frank.geekheim.de/
-- title: realtime.at - Domain gecatcht
-  url: http://moritzleuenberger.blueblog.ch/
-- title: "Organisieren: f\xF6rderland"
+- feeds:
+  - href: https://opensource.googleblog.com/feeds/posts/default
+    title: Google Open Source Blog - Atom
+    type: application/atom+xml
+  - href: https://opensource.googleblog.com/feeds/posts/default?alt=rss
+    title: Google Open Source Blog - RSS
+    type: application/rss+xml
+  - href: https://www.blogger.com/feeds/8698702854482141883/posts/default
+    title: Google Open Source Blog - Atom
+    type: application/atom+xml
+  title: Google Open Source Blog
+  url: http://google-opensource.blogspot.com/
+- feeds: []
+  title: "Organisieren: f\xF6rderland"
   url: http://imgriff.com/
-- title: "Stephan List \xFCber Produktivit\xE4t bei der Arbeit \u203A ToolBlog"
-  url: http://www.toolblog.de/
-- title: 403 Forbidden
+- feeds:
+  - href: /feed.xml
+    title: ''
+    type: application/rss+xml
+  title: Jacob Kaplan-Moss
+  url: http://jacobian.org/
+- feeds:
+  - href: http://jobtrainer-blog.de/?feed=rss2
+    title: "Jobtrainer-Blog \xBB Feed"
+    type: application/rss+xml
+  - href: http://jobtrainer-blog.de/?feed=comments-rss2
+    title: "Jobtrainer-Blog \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: http://jobtrainer-blog.de/?feed=rss2
+    title: Jobtrainer-Blog RSS2 Feed
+    type: application/rss+xml
+  title: "F\xFCr Jobcoaches und Trainer in Arbeitsmarktprojekten"
+  url: http://jobtrainer-blog.de/
+- feeds:
+  - href: https://lifehacker.com/rss
+    title: Lifehacker - All stories
+    type: application/rss+xml
+  title: Lifehacker - Tips, tricks and downloads for getting things done
+  url: http://lifehacker.com/
+- feeds:
+  - href: https://lwn.net/headlines/newrss
+    title: LWN.net headlines
+    type: application/rss+xml
+  title: Welcome to LWN.net [LWN.net]
+  url: http://lwn.net/
+- feeds:
+  - href: https://metaebene.me/feed/
+    title: "Metaebene Personal Media \xBB Feed"
+    type: application/rss+xml
+  - href: https://metaebene.me/comments/feed/
+    title: "Metaebene Personal Media \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: http://metaebene.me/feed/m4a/
+    title: 'Podcast Feed: Metaebene (M4A Audio)'
+    type: application/rss+xml
+  - href: http://metaebene.me/feed/mp3/
+    title: 'Podcast Feed: Metaebene (MP3)'
+    type: application/rss+xml
+  title: Metaebene Personal Media | Es gilt das gesprochene Wort
+  url: http://metaebene.me/
+- feeds: []
+  title: realtime.at - Domain gecatcht
+  url: http://moritzleuenberger.blueblog.ch/
+- feeds:
+  - href: https://netzpolitik.org/feed/
+    title: "netzpolitik.org \xBB Feed"
+    type: application/rss+xml
+  - href: https://netzpolitik.org/comments/feed/
+    title: "netzpolitik.org \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "netzpolitik.org \u2013 Plattform f\xFCr digitale Freiheitsrechte"
+  url: http://netzpolitik.org/
+- feeds: []
+  title: Homepage | Opensource.com
+  url: http://opensource.com/
+- feeds:
+  - href: https://rss.packetstormsecurity.com/news/
+    title: Packet Storm Headlines
+    type: application/rss+xml
+  - href: https://rss.packetstormsecurity.com/files/
+    title: Packet Storm Recent Files
+    type: application/rss+xml
+  - href: https://rss.packetstormsecurity.com/files/tags/exploit/
+    title: Packet Storm Exploits
+    type: application/rss+xml
+  - href: https://rss.packetstormsecurity.com/files/tags/advisory/
+    title: Packet Storm Advisories
+    type: application/rss+xml
+  title: Packet Storm
+  url: http://packetstormsecurity.org/
+- feeds:
+  - href: rss10.xml
+    title: RSS 1.0 Feed
+    type: application/rss+xml
+  - href: rss20.xml
+    title: RSS 2.0 Feed
+    type: application/rss+xml
+  - href: atom.xml
+    title: Atom Feed
+    type: application/atom+xml
+  title: Planet Debian
+  url: http://planet.debian.org/
+- feeds: []
+  title: PR-Blogger
+  url: http://pr-blogger.de/
+- feeds: []
+  title: Psychologie Nachrichten Heute - Ratgeber und Lexikon
+  url: http://psychologienachrichten.de/
+- feeds: []
+  title: ':::denn sie wissen nicht, was sie tun sollen:::'
+  url: http://rebellmarkt.blogger.de/
+- feeds:
+  - href: http://running.competitor.com/feed
+    title: "Competitor.com \xBB Feed"
+    type: application/rss+xml
+  - href: http://running.competitor.com/comments/feed
+    title: "Competitor.com \xBB Comments Feed"
+    type: application/rss+xml
+  - href: http://running.competitor.com/home-page/feed
+    title: "Competitor.com \xBB Home Page Comments Feed"
+    type: application/rss+xml
+  title: 'Competitor.com: Marathon Training Plans, Running Shoe Reviews, Nutrition...'
+  url: http://running.competitor.com/
+- feeds:
+  - href: http://www.atrailrunnersblog.com/feeds/posts/default
+    title: A Trail Runner's Blog - Atom
+    type: application/atom+xml
+  - href: http://www.atrailrunnersblog.com/feeds/posts/default?alt=rss
+    title: A Trail Runner's Blog - RSS
+    type: application/rss+xml
+  - href: https://www.blogger.com/feeds/8860166/posts/default
+    title: A Trail Runner's Blog - Atom
+    type: application/atom+xml
+  title: A Trail Runner's Blog
+  url: http://runtrails.blogspot.com/
+- feeds:
+  - href: http://scienceblogs.de/feed/
+    title: "ScienceBlogs auf Deutsch \xBB Feed"
+    type: application/rss+xml
+  - href: http://scienceblogs.de/comments/feed/
+    title: "ScienceBlogs auf Deutsch \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: ScienceBlogs auf Deutsch
+  url: http://scienceblogs.de/
+- feeds: []
+  title: CXSECURITY.COM Free Security List
+  url: http://securityreason.com/
+- feeds:
+  - href: http://rss.slashdot.org/Slashdot/slashdotMain
+    title: Slashdot RSS
+    type: application/rss+xml
+  title: 'Slashdot: News for nerds, stuff that matters'
+  url: http://slashdot.org/
+- feeds: []
+  title: "WELT - Nachrichten, Hintergr\xFCnde, News & N24-Videos"
+  url: http://welt.de/
+- feeds:
+  - href: http://www.achtneun.com/landing-page/feed/
+    title: "89 \u2013 Alles M\xFCnchen. \xBB Landing Page Kommentar-Feed"
+    type: application/rss+xml
+  title: "89 \u2014 Ich bin M\xFCnchen"
+  url: http://www.achtneun.com/
+- feeds:
+  - href: http://agilesoc.com/feed/
+    title: "AgileSoC.com \xBB Feed"
+    type: application/rss+xml
+  - href: http://agilesoc.com/comments/feed/
+    title: "AgileSoC.com \xBB Comments Feed"
+    type: application/rss+xml
+  title: AgileSoC.com | Bring Agile to the World of Hardware Development
+  url: http://www.agilesoc.com/
+- feeds:
+  - href: http://feeds.feedburner.com/alltagsforschung
+    title: "Alltagsforschung \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.alltagsforschung.de/comments/feed/
+    title: "Alltagsforschung \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: Alltagsforschung - Wissenschaft, die Wissen schafft
+  url: http://www.alltagsforschung.de/
+- feeds:
+  - href: http://www.antibuerokratieteam.net/feed/
+    title: "antibuerokratieteam.net \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.antibuerokratieteam.net/comments/feed/
+    title: "antibuerokratieteam.net \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "antibuerokratieteam.net \u2013 Relaunch Liberty."
+  url: http://www.antibuerokratieteam.net/
+- feeds:
+  - href: https://www.basicthinking.de/blog/feed/
+    title: "BASIC thinking \xBB Feed"
+    type: application/rss+xml
+  - href: https://www.basicthinking.de/blog/comments/feed/
+    title: "BASIC thinking \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "BASIC thinking \xE2\x80\x93 Online-Magazin f\xC3\xBCr Social Media, Marketing\
+    \ und Business"
+  url: http://www.basicthinking.de/
+- feeds:
+  - href: http://www.best-practice-business.de/feed/
+    title: "www.best-practice-business.de \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.best-practice-business.de/comments/feed/
+    title: "www.best-practice-business.de \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: http://www.best-practice-business.de/wir-uber-uns/feed/
+    title: "www.best-practice-business.de \xBB  Kommentar-Feed"
+    type: application/rss+xml
+  title: '- www.best-practice-business.de'
+  url: http://www.best-practice-business.de/
+- feeds:
+  - href: https://ivanblatter.com/feed/
+    title: "Ivan Blatter | Personal Trainer f\xFCr neues Zeitmanagement \xBB Feed"
+    type: application/rss+xml
+  - href: https://ivanblatter.com/comments/feed/
+    title: "Ivan Blatter | Personal Trainer f\xFCr neues Zeitmanagement \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "Ivan Blatter | Personal Trainer f\xFCr neues Zeitmanagement"
   url: http://www.blatternet.de/
-- title: "The world's leading software development platform \xB7 GitHub"
-  url: https://github.com/
-- title: IEEE - The world's largest technical professional organization dedicated
+- feeds:
+  - href: SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSS_Breg_aktuell/RSSNewsfeed.xml
+    title: Bundesregierung kompakt
+    type: application/rss+xml
+  - href: SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSS_Breg_artikel/RSSNewsfeed.xml
+    title: Bundesregierung Artikel
+    type: application/rss+xml
+  - href: SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSS_Breg_pressemitteilungen/RSSNewsfeed.xml
+    title: Bundesregierung Pressemitteilungen
+    type: application/rss+xml
+  - href: SiteGlobals/Functions/RSSFeed/DE/Podcast/WdK/podcast.xml
+    title: Die Woche der Kanzlerin
+    type: application/rss+xml
+  - href: SiteGlobals/Functions/RSSFeed/DE/Podcast/WdK/podcast_hd.xml
+    title: Die Woche der Kanzlerin [HD]
+    type: application/rss+xml
+  title: Bundesregierung | Startseite
+  url: http://www.bundesregierung.de/
+- feeds:
+  - href: http://www.codeplex.com/site/feeds/rss
+    title: CodePlex
+    type: application/rss+xml
+  title: CodePlex - Open Source Project Hosting
+  url: http://www.codeplex.com/
+- feeds:
+  - href: http://www.connectedmarketing.de/cm/atom.xml
+    title: "Eintr\xE4ge aus 'ConnectedMarketing.de' (Atom)"
+    type: application/atom+xml
+  - href: http://www.connectedmarketing.de/cm/index.rdf
+    title: "Eintr\xE4ge aus 'ConnectedMarketing.de' (RSS 1.0)"
+    type: application/rss+xml
+  - href: http://www.connectedmarketing.de/cm/rss.xml
+    title: "Eintr\xE4ge aus 'ConnectedMarketing.de' (RSS 2.0)"
+    type: application/rss+xml
+  title: ConnectedMarketing.de
+  url: http://www.connectedmarketing.de/
+- feeds:
+  - href: https://www.dcrainmaker.com/feed
+    title: "DC Rainmaker \xBB Feed"
+    type: application/rss+xml
+  - href: https://www.dcrainmaker.com/comments/feed
+    title: "DC Rainmaker \xBB Comments Feed"
+    type: application/rss+xml
+  title: DC Rainmaker
+  url: http://www.dcrainmaker.com/
+- feeds:
+  - href: http://www.der-postillon.com/feeds/posts/default
+    title: Der Postillon - Atom
+    type: application/atom+xml
+  - href: http://www.der-postillon.com/feeds/posts/default?alt=rss
+    title: Der Postillon - RSS
+    type: application/rss+xml
+  - href: https://www.blogger.com/feeds/746298260979647434/posts/default
+    title: Der Postillon - Atom
+    type: application/atom+xml
+  title: Der Postillon
+  url: http://www.der-postillon.com/
+- feeds: []
+  title: The Web framework for perfectionists with deadlines | Django
+  url: http://www.djangoproject.com/
+- feeds:
+  - href: https://www.entscheiderblog.de/feed/
+    title: "Entscheiderblog \xBB Feed"
+    type: application/rss+xml
+  - href: https://www.entscheiderblog.de/comments/feed/
+    title: "Entscheiderblog \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: https://www.entscheiderblog.de/feed/
+    title: Entscheiderblog RSS2 Feed
+    type: application/rss+xml
+  title: "Entscheiderblog \u2013 Mit \xFCber 900 Artikeln eine der gr\xF6\xDFten deutschsprachigen\
+    \ Quellen zum Thema Entscheidung \u2013 Entscheidungen erfolgreich gestalten"
+  url: http://www.entscheiderblog.de/
+- feeds:
+  - href: https://gizmodo.com/rss
+    title: Gizmodo - All stories
+    type: application/rss+xml
+  title: Gizmodo - We come from the future.
+  url: http://www.gizmodo.com
+- feeds: []
+  title: "News zu Startups, Digitalwirtschaft und VC | Gr\xFCnderszene"
+  url: http://www.gruenderszene.de/
+- feeds: []
+  title: Guy's Pod
+  url: http://www.guypo.com/
+- feeds:
+  - href: /contentexport/feed/top-themen/
+    title: 'Handelsblatt Online - RSS-Feed: Top-Themen'
+    type: application/rss+xml
+  title: Handelsblatt - Nachrichten aus Wirtschaft, Finanzen und Politik
+  url: http://www.handelsblatt.com/
+- feeds:
+  - href: https://www.zdf.de/rss/zdf/nachrichten
+    title: RSS
+    type: application/rss+xml
+  title: "\n    \n        Aktuelle Nachrichten der ZDF heute Redaktion - ZDFmediathek\n\
+    \    \n"
+  url: http://www.heute.de/
+- feeds:
+  - href: /rss/index.html?feedId=News_Release
+    title: IEEE.org - News Releases
+    type: application/rss+xml
+  title: IEEE - The world's largest technical professional organization dedicated
     to advancing technology for the benefit of humanity.
   url: http://www.ieee.org/
-- title: Laughing Squid
-  url: http://www.laughingsquid.com/
-- title: "Das Kraftfuttermischwerk \u2013 Liebe. Freiheit. Alles! Und Musik."
+- feeds:
+  - href: http://www.isarblog.de/feed/
+    title: "ISARBLOG \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.isarblog.de/comments/feed/
+    title: "ISARBLOG \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "ISARBLOG - das M\xFCnchen Blog"
+  url: http://www.isarblog.de/
+- feeds:
+  - href: http://www.jova-nova.com/rss.xml
+    title: Winklers Blog
+    type: application/rss+xml
+  title: Anders bewerben - Tipps vom Bewerbungshelfer
+  url: http://www.jova-nova.com/
+- feeds:
+  - href: https://www.kerstin-hoffmann.de/feed/
+    title: "Dr. Kerstin Hoffmann Unternehmenskommunikation \xBB Feed"
+    type: application/rss+xml
+  - href: https://www.kerstin-hoffmann.de/comments/feed/
+    title: "Dr. Kerstin Hoffmann Unternehmenskommunikation \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: https://www.kerstin-hoffmann.de/feed/
+    title: Dr. Kerstin Hoffmann Unternehmenskommunikation RSS2 Feed
+    type: application/rss+xml
+  title: "Unternehmenskommunikation, PR, Social Media, Content-Marketing - D\xFCsseldorf"
+  url: http://www.kerstin-hoffmann.de/
+- feeds:
+  - href: http://www.kraftfuttermischwerk.de/blogg/feed/
+    title: "Das Kraftfuttermischwerk \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.kraftfuttermischwerk.de/blogg/comments/feed/
+    title: "Das Kraftfuttermischwerk \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "Das Kraftfuttermischwerk \u2013 Liebe. Freiheit. Alles! Und Musik."
   url: http://www.kraftfuttermischwerk.de/
-- title: "Nerdcore \u203A Made you look."
+- feeds:
+  - href: http://feeds.laughingsquid.com/laughingsquid
+    title: "Laughing Squid \xBB Feed"
+    type: application/rss+xml
+  - href: https://laughingsquid.com/comments/feed/
+    title: "Laughing Squid \xBB Comments Feed"
+    type: application/rss+xml
+  title: Laughing Squid
+  url: http://www.laughingsquid.com/
+- feeds:
+  - href: http://www.lawblog.de/index.php/feed/
+    title: "law blog \xBB Feed"
+    type: application/rss+xml
+  title: law blog
+  url: http://www.lawblog.de/
+- feeds:
+  - href: /node/feed
+    title: Front page feed
+    type: application/rss+xml
+  title: Linux Journal | The Original Magazine of the Linux Community
+  url: http://www.linuxjournal.com/
+- feeds:
+  - href: https://www.lobbycontrol.de/feed/
+    title: "LobbyControl \xBB Feed"
+    type: application/rss+xml
+  - href: https://www.lobbycontrol.de/comments/feed/
+    title: "LobbyControl \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: Dem Lobbyismus Schranken setzen | LobbyControl
+  url: http://www.lobbycontrol.de/blog/
+- feeds:
+  - href: http://feeds.macrumors.com/MacRumors-All
+    title: All Mac Rumors Headlines
+    type: application/rss+xml
+  - href: http://feeds.macrumors.com/MacRumors-Front
+    title: Front Page Only
+    type: application/rss+xml
+  - href: http://feeds.macrumors.com/MacRumors-Mac
+    title: Mac Blog Only
+    type: application/rss+xml
+  - href: http://feeds.macrumors.com/MacRumors-iPhone
+    title: iPhone/iOS Blog Only
+    type: application/rss+xml
+  title: 'Mac Rumors: Apple Mac iOS Rumors and News You Care About'
+  url: http://www.macrumors.com
+- feeds:
+  - href: http://www.manager-magazin.de/news/index.rss
+    title: manager magazin als RSS-Feed
+    type: application/rss+xml
+  title: manager magazin - Wirtschaftsnachrichten
+  url: http://www.manager-magazin.de/
+- feeds:
+  - href: http://minkorrekt.de/feed/
+    title: "Methodisch inkorrekt \xBB Feed"
+    type: application/rss+xml
+  - href: http://minkorrekt.de/comments/feed/
+    title: "Methodisch inkorrekt \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: http://minkorrekt.de/feed/m4a/
+    title: 'Podcast Feed: Methodisch inkorrekt (m4a Audio)'
+    type: application/rss+xml
+  - href: http://minkorrekt.de/feed/mp3/
+    title: 'Podcast Feed: Methodisch inkorrekt (MP3 Audio)'
+    type: application/rss+xml
+  - href: http://minkorrekt.de/feed/ogg/
+    title: 'Podcast Feed: Methodisch inkorrekt (ogg)'
+    type: application/rss+xml
+  - href: http://minkorrekt.de/feed/opus/
+    title: 'Podcast Feed: Methodisch inkorrekt (opus)'
+    type: application/rss+xml
+  title: Methodisch inkorrekt | der methodisch inkorrekte Wissenschaftspodcast
+  url: http://www.minkorrekt.de
+- feeds:
+  - href: https://motherboard.vice.com/de/rss
+    title: motherboard
+    type: application/rss+xml
+  title: Motherboard - The future is wonderful, the future is terrifying.
+  url: http://www.motherboard.tv/
+- feeds:
+  - href: https://www.mucbook.de/feed/
+    title: "MUCBOOK \xBB Feed"
+    type: application/rss+xml
+  - href: https://www.mucbook.de/comments/feed/
+    title: "MUCBOOK \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: https://www.mucbook.de/aktuell/feed/
+    title: "MUCBOOK \xBB AKTUELL Kommentar-Feed"
+    type: application/rss+xml
+  title: "MUCBOOK - Das M\xFCnchner Stadtmagazin"
+  url: http://www.mucbook.de/
+- feeds: []
+  title: "M\xFCnchenBlogger - Das Stadtblog f\xFCr M\xFCnchen"
+  url: http://www.muenchenblogger.de/
+- feeds:
+  - href: /rss.php
+    title: u-bahn-muenchen.de Aktuell
+    type: application/rss+xml
+  title: "U-Bahn M\xFCnchen - Aktuelles"
+  url: http://www.muenchnerubahn.de/
+- feeds:
+  - href: //www.nerdcore.de/feed/
+    title: Nerdcore (RSS)
+    type: application/rss+xml
+  - href: //feeds.feedburner.com/nc-podcast
+    title: Wowcast (RSS)
+    type: application/rss+xml
+  - href: //feeds.feedburner.com/nc-pc
+    title: NC-Podcast (RSS)
+    type: application/rss+xml
+  title: "Nerdcore \u203A Made you look."
   url: http://www.nerdcore.de/
-- title: "Schlecky Silberstein \u2013 DIE JOGGINGHOSE F\xC3\x9CR DEN KOPF"
+- feeds:
+  - href: http://www.personalmarketingblog.de/feed
+    title: Personalmarketingblog RSS Feed
+    type: application/rss+xml
+  - href: http://www.personalmarketingblog.de/feed/atom
+    title: Personalmarketingblog Atom Feed
+    type: application/atom+xml
+  - href: http://www.personalmarketingblog.de/feed
+    title: "Personalmarketingblog \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.personalmarketingblog.de/comments/feed
+    title: "Personalmarketingblog \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: ' Personalmarketingblog'
+  url: http://www.personalmarketingblog.de/
+- feeds: []
+  title: "\n\tPHD Comics: On the side"
+  url: http://www.phdcomics.com/
+- feeds:
+  - href: https://pornoanwalt.de/?feed=rss2
+    title: "PORNOANWALT \xBB Feed"
+    type: application/rss+xml
+  - href: https://pornoanwalt.de/?feed=comments-rss2
+    title: "PORNOANWALT \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: PORNOANWALT
+  url: http://www.pornoanwalt.de/
+- feeds:
+  - href: https://www.python.org/dev/peps/peps.rss/
+    title: Python Enhancement Proposals
+    type: application/rss+xml
+  - href: https://www.python.org/jobs/feed/rss/
+    title: Python Job Opportunities
+    type: application/rss+xml
+  - href: https://feeds.feedburner.com/PythonSoftwareFoundationNews
+    title: Python Software Foundation News
+    type: application/rss+xml
+  - href: https://feeds.feedburner.com/PythonInsider
+    title: Python Insider
+    type: application/rss+xml
+  title: Welcome to Python.org
+  url: http://www.python.org
+- feeds:
+  - href: http://www.rumohr.de/feed/
+    title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.rumohr.de/comments/feed/
+    title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: http://www.rumohr.de/key-note-speaker-redner-referent/feed/
+    title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Redner,\
+      \ Trainer, Buchautor \u2013 Joachim Rumohr Kommentar-Feed"
+    type: application/rss+xml
+  - href: http://www.rumohr.de/feed/
+    title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung RSS2 Feed"
+    type: application/rss+xml
+  title: Redner, Trainer, Buchautor - Joachim Rumohr
+  url: http://www.rumohr.de/
+- feeds:
+  - href: https://runblogger.com/feed
+    title: "Runblogger \xBB Feed"
+    type: application/rss+xml
+  - href: https://runblogger.com/comments/feed
+    title: "Runblogger \xBB Comments Feed"
+    type: application/rss+xml
+  title: "Runblogger \u2013 Running Shoes, Gear Reviews, and Posts on the Science\
+    \ of the Sport"
+  url: http://www.runblogger.com/
+- feeds:
+  - href: http://www.schlaflosinmuenchen.com/feed/
+    title: "Schlaflos in M\xFCnchen \u2013 der Podcast mit Annik Rubens RSS Feed"
+    type: application/rss+xml
+  title: "Schlaflos in M\xFCnchen \u2013 der Podcast mit Annik Rubens  "
+  url: http://www.schlaflosinmuenchen.com/
+- feeds:
+  - href: http://www.schleckysilberstein.com/feed/
+    title: "Schlecky Silberstein \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.schleckysilberstein.com/comments/feed/
+    title: "Schlecky Silberstein \xBB Comments Feed"
+    type: application/rss+xml
+  title: "Schlecky Silberstein \u2013 DIE JOGGINGHOSE F\xC3\x9CR DEN KOPF"
   url: http://www.schleckysilberstein.com/
-- title: "wosolldasallesenden.de\_-&nbspDiese; Website steht zum Verkauf!\_-&nbspInformationen;\
-    \ zum Thema wosolldasallesenden."
-  url: http://www.wosolldasallesenden.de/
-- title: '- www.best-practice-business.de'
-  url: http://www.best-practice-business.de/
-- title: "News zu Startups, Digitalwirtschaft und VC | Gr\xFCnderszene"
-  url: http://www.gruenderszene.de/
-- title: ConnectedMarketing.de
-  url: http://www.connectedmarketing.de/
-- title: AgileSoC.com | Bring Agile to the World of Hardware Development
-  url: http://www.agilesoc.com/
-- title: My Site
-  url: http://agilesysadmin.net
-- title: Aktuelle Nachrichten - Inland Ausland Wirtschaft Kultur Sport - ARD Tagesschau
+- feeds:
+  - href: https://www.schneier.com/blog/atom.xml
+    title: Blog Feed (Atom 1.0)
+    type: application/atom+xml
+  title: Schneier on Security
+  url: http://www.schneier.com/
+- feeds:
+  - href: //www.securiteam.com/securiteam.rss
+    title: SecuriTeam RSS
+    type: application/rss+xml
+  title: SecuriTeam.com - A Free Accurate and Independent Source of Vulnerability
+    Information
+  url: http://www.securiteam.com
+- feeds:
+  - href: http://rss.slashdot.org/Slashdot/slashdotMain
+    title: Slashdot RSS
+    type: application/rss+xml
+  title: 'Slashdot: News for nerds, stuff that matters'
+  url: http://www.slashdot.org
+- feeds:
+  - href: http://www.spiegelfechter.com/wordpress/feed
+    title: RSS 2.0
+    type: application/rss+xml
+  - href: http://www.spiegelfechter.com/wordpress/feed/atom
+    title: Atom 0.3
+    type: application/atom+xml
+  - href: http://www.spiegelfechter.com/wordpress/feed
+    title: "Spiegelfechter \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.spiegelfechter.com/wordpress/comments/feed
+    title: "Spiegelfechter \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: ' Spiegelfechter'
+  url: http://www.spiegelfechter.com/
+- feeds:
+  - href: http://www.tagesschau.de/xml/rss2
+    title: tagesschau.de RSS2-Feed
+    type: application/rss+xml
+  title: Aktuelle Nachrichten - Inland Ausland Wirtschaft Kultur Sport - ARD Tagesschau
     | tagesschau.de
   url: http://www.tagesschau.de
-- title: Aktuelle Nachrichten der ZDF heute Redaktion - ZDF.de
-  url: http://www.heute.de/
-- title: ScienceBlogs auf Deutsch
-  url: http://scienceblogs.de/
-- title: Welcome to Python.org
-  url: http://www.python.org
-- title: The Web framework for perfectionists with deadlines | Django
-  url: http://www.djangoproject.com/
-- title: Jacob Kaplan-Moss
-  url: http://jacobian.org/
+- feeds:
+  - href: http://www.techhive.com/index.rss
+    title: RSS Feed
+    type: application/rss+xml
+  title: TechHive - News, reviews and tips about smart homes, home security, and home
+    entertainment
+  url: http://www.techhive.com
+- feeds:
+  - href: https://www.techmeme.com/feed.xml
+    title: RSS
+    type: application/rss+xml
+  title: Techmeme
+  url: http://www.techmeme.com
+- feeds: []
+  title: Resources and Tools for IT Professionals | TechNet
+  url: http://www.technet.com/
+- feeds: []
+  title: TechRadar | The source for tech buying advice | TechRadar
+  url: http://www.techradar.com
+- feeds:
+  - href: http://www.the-future-of-commerce.com/feed/
+    title: "The Future of Customer Engagement and Commerce \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.the-future-of-commerce.com/comments/feed/
+    title: "The Future of Customer Engagement and Commerce \xBB Comments Feed"
+    type: application/rss+xml
+  title: The Future of Customer Engagement and Commerce - Your destination for relevant,
+    timely information & analysis on commerce trends, both consumer-facing and B2B.
+  url: http://www.the-future-of-commerce.com/
+- feeds:
+  - href: http://www.thomashutter.com/index.php/feed/
+    title: ' RSS Feed'
+    type: application/rss+xml
+  title: Facebook Marketing Blog - Thomas Hutter Facebook Marketing Experte - Aktuelle
+    News zu Facebook
+  url: http://www.thomashutter.com/index.php/
+- feeds:
+  - href: https://toolblog.de/feed/
+    title: "ToolBlog \xBB Feed"
+    type: application/rss+xml
+  - href: https://toolblog.de/comments/feed/
+    title: "ToolBlog \xBB Kommentar-Feed"
+    type: application/rss+xml
+  - href: https://toolblog.de/feed/podcast/
+    title: "ToolBlog \xBB Toolblog Podcast Feed"
+    type: application/rss+xml
+  title: "Stephan List \xFCber Produktivit\xE4t bei der Arbeit \u203A ToolBlog"
+  url: http://www.toolblog.de/
+- feeds:
+  - href: https://www.vice.com/de/rss
+    title: vice
+    type: application/rss+xml
+  title: 'VICE - Unbequemer Journalismus und Dokus zu allem, was wichtig ist auf der
+    Welt. '
+  url: http://www.vice.com/
+- feeds: []
+  title: 'VICELAND: The new TV channel from VICE.'
+  url: http://www.viceland.com/
+- feeds:
+  - href: http://www.visualcapitalist.com/feed/
+    title: "Visual Capitalist \xBB Feed"
+    type: application/rss+xml
+  - href: http://www.visualcapitalist.com/comments/feed/
+    title: "Visual Capitalist \xBB Comments Feed"
+    type: application/rss+xml
+  title: Visual Capitalist
+  url: http://www.visualcapitalist.com
+- feeds: []
+  title: Home - Web Application Security Consortium
+  url: http://www.webappsec.org/
+- feeds:
+  - href: https://wollmilchsau.de/home/feed/
+    title: "Wollmilchsau GmbH \xBB Home Kommentar-Feed"
+    type: application/rss+xml
+  title: Wollmilchsau GmbH - wir machen den Jobspreader
+  url: http://www.wollmilchsau.de/
+- feeds: []
+  title: "wosolldasallesenden.de\_-&nbspDiese; Website steht zum Verkauf!\_-&nbspInformationen;\
+    \ zum Thema wosolldasallesenden."
+  url: http://www.wosolldasallesenden.de/
+- feeds:
+  - href: https://wrint.de/feed/
+    title: "WRINT: Wer redet ist nicht tot \xBB Feed"
+    type: application/rss+xml
+  - href: https://wrint.de/comments/feed/
+    title: "WRINT: Wer redet ist nicht tot \xBB Kommentar-Feed"
+    type: application/rss+xml
+  title: "WRINT: Wer redet ist nicht tot | Gespr\xE4che zum Runterladen (vulg. Podcast)"
+  url: http://www.wrint.de/
+- feeds:
+  - href: /atom.xml
+    title: Atom 1.0
+    type: application/atom+xml
+  - href: /rss.xml
+    title: RSS 2.0
+    type: application/rss+xml
+  title: 'xkcd: Meltdown and Spectre'
+  url: http://xkcd.com/
+- feeds:
+  - href: https://9to5mac.com/feed/
+    title: "9to5Mac \xBB Feed"
+    type: application/rss+xml
+  - href: https://9to5mac.com/comments/feed/
+    title: "9to5Mac \xBB Comments Feed"
+    type: application/rss+xml
+  title: 9to5Mac | Apple News & Mac Rumors Breaking All Day
+  url: https://9to5mac.com
+- feeds:
+  - href: http://financialcryptography.com/index.rdf
+    title: RSS
+    type: application/rss+xml
+  title: Financial Cryptography
+  url: https://financialcryptography.com/
+- feeds: []
+  title: "The world's leading software development platform \xB7 GitHub"
+  url: https://github.com/
+- feeds:
+  - href: https://neumeier.org/feed/
+    title: "neumeier.org \xBB Feed"
+    type: application/rss+xml
+  - href: https://neumeier.org/comments/feed/
+    title: "neumeier.org \xBB Comments Feed"
+    type: application/rss+xml
+  title: neumeier.org
+  url: https://neumeier.org/
+- feeds:
+  - href: https://nomorecubes.net/feed/
+    title: "\u2606 No more cubes. \xBB Feed"
+    type: application/rss+xml
+  - href: https://nomorecubes.net/comments/feed/
+    title: "\u2606 No more cubes. \xBB Comments Feed"
+    type: application/rss+xml
+  title: "\u2606 No more cubes. \u2013 deus ex digital."
+  url: https://nomorecubes.net
+- feeds:
+  - href: https://techcrunch.com/feed/
+    title: "TechCrunch \xBB Feed"
+    type: application/rss+xml
+  - href: https://techcrunch.com/comments/feed/
+    title: "TechCrunch \xBB Comments Feed"
+    type: application/rss+xml
+  title: TechCrunch - The latest technology news and information on startups
+  url: https://techcrunch.com
+- feeds: []
+  title: RSS Feeds | The Economist
+  url: https://www.economist.com/rss
+- feeds:
+  - href: //www.engadget.com/rss.xml
+    title: Engadget
+    type: application/rss+xml
+  title: Engadget
+  url: https://www.engadget.com
+- feeds:
+  - href: /rss/aktuell/
+    title: FAZ.NET
+    type: application/rss+xml
+  title: Aktuelle Nachrichten online - FAZ.NET
+  url: https://www.faz.net
+- feeds:
+  - href: https://www.heise.de/newsticker/heise-atom.xml
+    title: Aktuelle News von heise online
+    type: application/atom+xml
+  - href: https://www.heise.de/newsticker/heise.rdf
+    title: "Aktuelle News von heise online (f\xFCr \xE4ltere RSS-Reader)"
+    type: application/rss+xml
+  title: "\n        heise online - IT-News, Nachrichten und Hintergr\xFCnde\n    heise\
+    \ online\n"
+  url: https://www.heise.de
+- feeds:
+  - href: http://www.spiegel.de/schlagzeilen/index.rss
+    title: SPIEGEL ONLINE RSS Schlagzeilen
+    type: application/rss+xml
+  - href: http://www.spiegel.de/index.rss
+    title: SPIEGEL ONLINE RSS Nachrichten
+    type: application/rss+xml
+  title: SPIEGEL ONLINE - Aktuelle Nachrichten
+  url: https://www.spiegel.de
+- feeds:
+  - href: http://www.spiegel.de/schlagzeilen/index.rss
+    title: SPIEGEL ONLINE RSS Schlagzeilen
+    type: application/rss+xml
+  - href: http://www.spiegel.de/index.rss
+    title: SPIEGEL ONLINE RSS Nachrichten
+    type: application/rss+xml
+  title: SPIEGEL ONLINE - Aktuelle Nachrichten
+  url: https://www.spiegel.de/
+- feeds:
+  - href: http://rssfeed.sueddeutsche.de/c/795/f/449002/index.rss
+    title: sueddeutsche.de RSS Feed
+    type: application/rss+xml
+  title: "Nachrichten aus Politik, Kultur, Wirtschaft und Sport - S\xFCddeutsche.de"
+  url: https://www.sueddeutsche.de
+- feeds:
+  - href: https://www.theguardian.com/international/rss
+    title: RSS
+    type: application/rss+xml
+  title: News, sport and opinion from the Guardian's global edition | The Guardian
+  url: https://www.theguardian.com/international
+- feeds:
+  - href: /rss/index.xml
+    title: The Verge
+    type: application/rss+xml
+  - href: https://www.theverge.com/rss/front-page/index.xml
+    title: Front Page
+    type: application/rss+xml
+  title: The Verge
+  url: https://www.theverge.com
