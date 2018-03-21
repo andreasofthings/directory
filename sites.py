@@ -36,6 +36,7 @@ class Site(object):
 
 
 def URLlist(filename):
+    """List all URLs in urllist.csv"""
     with open(filename) as urls:
         urlreader = csv.reader(urls)
         for url in urlreader:
@@ -54,7 +55,7 @@ if __name__ == '__main__':
                 'title': site.title,
                 'feeds': site.feedSoup()
             }
-            websites.append(siteDetail)
+            websites.append({'site': siteDetail})
         except Exception as e:
             print("EXCEPTION: ", e)
             # print(e)

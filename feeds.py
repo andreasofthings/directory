@@ -10,17 +10,48 @@ import feedparser
 import pprint
 from collections import Counter
 import yaml
+from datetime import datetime, timedelta
+from time import mktime
 
-# Counter({'feed': 147, 'entries': 147, 'bozo': 147, 'headers': 147, 'href': 147, 'status': 147, 'encoding': 147, 'version': 147, 'namespaces': 147, 'etag': 113, 'updated': 113, 'updated_parsed': 113, 'bozo_exception': 6})
+from entries import processEntry, entryID
 
-# Counter({'links': 147, 'title': 146, 'title_detail': 146, 'link': 146, 'subtitle': 145, 'subtitle_detail': 145, 'updated': 139, 'updated_parsed': 139, 'generator_detail': 108, 'generator': 108, 'sy_updateperiod': 98, 'sy_updatefrequency': 98, 'language': 90, 'image': 39, 'authors': 26, 'author': 26, 'author_detail': 24, 'tags': 21, 'feedburner_info': 17, 'site': 15, 'id': 13, 'guidislink': 13, 'published': 12, 'published_parsed': 12, 'publisher_detail': 11, 'opensearch_totalresults': 11, 'opensearch_startindex': 11, 'opensearch_itemsperpage': 11, 'summary': 10, 'summary_detail': 10, 'itunes_explicit': 10, 'rights': 9, 'rights_detail': 9, 'href': 9, 'gd_image': 9, 'itunes_block': 8, 'publisher': 5, 'docs': 5, 'rdf_li': 5, 'rdf_seq': 5, 'entries': 5, 'feedburner_emailserviceid': 5, 'feedburner_feedburnerhostname': 5, 'ttl': 4, 'feedburner_feedflare': 4, 'feedpress_locale': 2, 'fyyd_verify': 2, 'itunes_type': 2, 'sy_updatebase': 2, 'textinput': 2, 'cloud': 2, 'meta': 1, 'info': 1, 'info_detail': 1, 'xhtml_meta': 1, 'logo': 1})
+feedKeys = Counter(
+    {
+        'feed': 147,
+        'entries': 147,
+        'bozo': 147,
+        'headers': 147,
+        'href': 147,
+        'status': 147,
+        'encoding': 147,
+        'version': 147,
+        'namespaces': 147,
+        'etag': 113,
+        'updated': 113,
+        'updated_parsed': 113,
+        'bozo_exception': 6
+    }
+)
 
-def Feedlist(filename):
+
+def FeedList(filename):
+    """List of Feeds in `Feeds`.yaml"""
     with open(filename) as y:
         websites = yaml.load(y)
         for site in websites:
-            for feed in site['feeds']:
-                yield feed
+            if site.get('site', 'None'):
+                for feed in site['site']['feeds']:
+                    yield feed
+
+
+def feedActive(updated, days=180):
+    """Feed `u  pdated` had activity in the last `days`."""
+    if updated is not None:
+        period = datetime.now() - timedelta(days=days)
+        return datetime(*updated[:6]) > period
+    else:
+        return True
+
 
 if __name__ == '__main__':
     feed_keys = Counter()
@@ -30,5 +61,21 @@ if __name__ == '__main__':
         if f.get('feed', None):
             feed_keys.update(f.keys())
             detail_keys.update(f.feed.keys())
+            print(f.feed.get('title', None))
+            updated = f.feed.get('updated_parsed', None)
+            if feedActive(updated):
+                print("Links: %s" % f.feed.get('links', None))
+                print(f.feed.get('link', None))
+                print(f.feed.get('title_detail', None))
+                print(f.feed.get('subtitle', None))
+                print(f.feed.get('subtitle_detail', None))
+                print("Updated: %s", datetime(*updated[:6]))
+                if f.entries:
+                    print("Entries")
+                    for entry in f.entries:
+                        processEntry(entry)
+            else:
+                print("Older: %s" % datetime(*updated[:6]))
+
     print(feed_keys)
     print(detail_keys)
