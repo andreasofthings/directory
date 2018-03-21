@@ -13,9 +13,10 @@ name = "pypi"
 
 beautifulsoup4 = "*"
 requests = "*"
+requests_cache = "*"
 feedparser = "*"
 nltk = "*"
-
+pyaml = "*"
 
 [requires]
 

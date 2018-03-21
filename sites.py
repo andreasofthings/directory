@@ -15,8 +15,10 @@ class Site(object):
         self.soup = BeautifulSoup(self.html, 'html.parser')
         super().__init__(*args, **kwargs)
 
+    @property
     def feedSoup(self):
         result = []
+        # print(self.soup('head'))
         for link in self.soup('link'):
             if 'type' in link.attrs and (
                 'application/rss' in link['type'] or
@@ -34,13 +36,27 @@ class Site(object):
         if self.soup("title"):
             return u''.join(self.soup.title.string)
 
+    @property
+    def og(self):
+        result = {}
+        for property in ('type', 'title', 'url', 'image'):
+            og = self.soup.find("meta",  property="og:%s" % (property))
+            result[property] = og['content'] if og else None
+        return result
+
 
 def URLlist(filename):
-    """List all URLs in urllist.csv"""
+    """
+    List all URLs in urllist.csv
+
+    .. todo::
+        Sort and filter dupes.
+    """
+    from urllib.parse import urlparse
     with open(filename) as urls:
         urlreader = csv.reader(urls)
         for url in urlreader:
-            yield url
+            yield urlparse(url[0]).geturl()
 
 
 if __name__ == '__main__':
@@ -48,12 +64,13 @@ if __name__ == '__main__':
     requests_cache.install_cache('cache')
 
     for url in URLlist("urls.csv"):
-        site = Site(url[0])
+        site = Site(url)
         try:
             siteDetail = {
-                'url': str(url[0]),
+                'url': str(url),
                 'title': site.title,
-                'feeds': site.feedSoup()
+                'feeds': site.feedSoup,
+                'og': site.og,
             }
             websites.append({'site': siteDetail})
         except Exception as e:
