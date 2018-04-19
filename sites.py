@@ -1,5 +1,4 @@
 import sys
-import csv
 import yaml
 import requests
 import requests_cache
@@ -45,17 +44,35 @@ class Site(object):
         return result
 
 
+class Feed(object):
+    def __init__(self, href):
+        self.feed = feedparser.parse(href)
+#        'feed': 147,
+#        'entries': 147,
+#        'bozo': 147,
+#        'headers': 147,
+#        'href': 147,
+#        'status': 147,
+#        'encoding': 147,
+#        'version': 147,
+#        'namespaces': 147,
+#        'etag': 113,
+#        'updated': 113,
+#        'updated_parsed': 113,
+#        'bozo_exception': 6
+
+
 def URLlist(filename):
     """
-    List all URLs in urllist.csv
+    List all URLs in urls.yaml
 
     .. todo::
         Sort and filter dupes.
     """
     from urllib.parse import urlparse
     with open(filename) as urls:
-        urlreader = csv.reader(urls)
-        for url in urlreader:
+        urlreader = yaml.load(urls)
+        for url in urlreader['Websites']:
             yield urlparse(url[0]).geturl()
 
 
@@ -63,7 +80,7 @@ if __name__ == '__main__':
     websites = []
     requests_cache.install_cache('cache')
 
-    for url in URLlist("urls.csv"):
+    for url in URLlist("urls.yaml"):
         site = Site(url)
         try:
             siteDetail = {
