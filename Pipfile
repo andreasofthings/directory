@@ -21,4 +21,3 @@ pyaml = "*"
 [requires]
 
 python_version = "3.6"
-python_full_version = "3.6.4"
