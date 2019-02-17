@@ -24,7 +24,7 @@ class Site(object):
                 'application/atom' in link['type']
             ):
                 result.append({
-                    'title': link['title'],
+                    'title': link.get('title', None),
                     'href': link['href'],
                     'type': link['type']
                 })
@@ -42,6 +42,21 @@ class Site(object):
             og = self.soup.find("meta",  property="og:%s" % (property))
             result[property] = og['content'] if og else None
         return result
+
+    def __dict__(self):
+        return {
+            'url': str(url),
+            'detail': {
+                'title': self.title,
+                'feeds': self.feedSoup,
+                'og': self.og
+            }
+        }
+
+
+class Feed(object):
+    def __init__(self, site):
+        self.urls = ['href' in site.feedSoup]
 
 
 class Feed(object):
@@ -83,13 +98,7 @@ if __name__ == '__main__':
     for url in URLlist("urls.yaml"):
         site = Site(url)
         try:
-            siteDetail = {
-                'url': str(url),
-                'title': site.title,
-                'feeds': site.feedSoup,
-                'og': site.og,
-            }
-            websites.append({'site': siteDetail})
+            websites.append(site.__dict__())
         except Exception as e:
             print("EXCEPTION: ", e)
             # print(e)
@@ -98,5 +107,12 @@ if __name__ == '__main__':
 
     with open("sites.yaml", "w") as y:
         y.write(yaml.safe_dump(websites, default_flow_style=False))
+
+    for site in websites:
+        for feed in site['detail']['feeds']:
+            if feed['href'].startswith("http"):
+                print(feed['href'])
+            else:
+                print("%s%s" % (site['url'], feed['href']))
 
     sys.exit(0)

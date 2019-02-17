@@ -1,4 +1,4 @@
-- site:
+- detail:
     feeds:
     - href: http://agilesysadmin.net/rss/
       title: Agile Sysadmin
@@ -9,8 +9,8 @@
       type: website
       url: http://agilesysadmin.net/
     title: Agile Sysadmin
-    url: http://agilesysadmin.net
-- site:
+  url: http://agilesysadmin.net
+- detail:
     feeds: []
     og:
       image: //ore.wsj.net/fp/assets/images/ico/WSJ_facebook.png
@@ -18,8 +18,20 @@
       type: website
       url: https://www.wsj.com/news/technology
     title: Tech News & Analysis - Wall Street Journal
-    url: http://allthingsd.com/
-- site:
+  url: http://allthingsd.com/
+- detail:
+    feeds:
+    - href: http://feeds.arstechnica.com/arstechnica/index/
+      title: null
+      type: application/rss+xml
+    og:
+      image: https://cdn.arstechnica.net/wp-content/themes/arstechnica/assets/images/ars-logo-open-grey.png
+      title: Ars Technica
+      type: website
+      url: https://arstechnica.com/
+    title: Ars Technica
+  url: http://arstechnica.com
+- detail:
     feeds:
     - href: https://elke-fleing.de/feed/
       title: "Elke Fleing \xBB Feed"
@@ -35,8 +47,8 @@
       url: https://elke-fleing.de/
     title: "Elke Fleing: Texte, Seminare, Vortr\xE4ge, Coachings | \u2713 Kommunikation\
       \ \u2713 Digitalisierung \u2713 Positionierung"
-    url: http://berufung-selbststaendig.de/
-- site:
+  url: http://berufung-selbststaendig.de/
+- detail:
     feeds:
     - href: /rss.xml
       title: Text-Feed
@@ -50,8 +62,8 @@
       type: null
       url: null
     title: Fefes Blog
-    url: http://blog.fefe.de/
-- site:
+  url: http://blog.fefe.de/
+- detail:
     feeds:
     - href: https://blog.hays.de/feed/
       title: "Blog zur Arbeitswelt \xBB Feed"
@@ -65,8 +77,8 @@
       type: website
       url: https://blog.hays.de/
     title: Hays - Blog zur Arbeitswelt
-    url: http://blog.hays.de/
-- site:
+  url: http://blog.hays.de/
+- detail:
     feeds:
     - href: https://blog.recrutainment.de/feed/
       title: "Recrutainment Blog \xBB Feed"
@@ -81,8 +93,8 @@
       type: website
       url: https://blog.recrutainment.de/
     title: Recrutainment Blog - Online-Assessment, Berufsorientierung & Employer Branding
-    url: http://blog.recrutainment.de/
-- site:
+  url: http://blog.recrutainment.de/
+- detail:
     feeds:
     - href: https://boerse.ard.de/index~rss.xml
       title: boerse.ARD.de RSS-Feed
@@ -93,8 +105,8 @@
       type: website
       url: https://boerse.ard.de/index.html
     title: "B\xF6rse Aktuell | Aktien, Kurse, Charts und News | boerse.ARD.de"
-    url: http://boerse.ard.de/
-- site:
+  url: http://boerse.ard.de/
+- detail:
     feeds:
     - href: http://clairediazortiz.com/feed/
       title: "Claire Diaz Ortiz \xBB Feed"
@@ -108,8 +120,8 @@
       type: website
       url: http://clairediazortiz.com/
     title: Claire Diaz Ortiz - Author, Speaker, World Traveler
-    url: http://clairediazortiz.com/
-- site:
+  url: http://clairediazortiz.com/
+- detail:
     feeds:
     - href: https://creativecommons.org/feed/
       title: "Creative Commons \xBB Feed"
@@ -123,8 +135,20 @@
       type: website
       url: https://creativecommons.org/
     title: When we share, everyone wins - Creative Commons
-    url: http://creativecommons.org/
-- site:
+  url: http://creativecommons.org/
+- detail:
+    feeds:
+    - href: /feeds/main
+      title: null
+      type: application/atom+xml
+    og:
+      image: null
+      title: null
+      type: null
+      url: null
+    title: Daring Fireball
+  url: http://daringfireball.net/
+- detail:
     feeds:
     - href: http://frank.geekheim.de/?feed=rss2
       title: "Knowledge Brings Fear \xBB Feed"
@@ -140,8 +164,8 @@
     title: 'Knowledge Brings Fear | At some point in time, you recognize that knowing
       more does not necessarily make you more happy. This weblog is about both: knowledge
       and happiness.'
-    url: http://frank.geekheim.de/
-- site:
+  url: http://frank.geekheim.de/
+- detail:
     feeds:
     - href: https://opensource.googleblog.com/feeds/posts/default
       title: Google Open Source Blog - Atom
@@ -158,8 +182,8 @@
       type: null
       url: https://opensource.googleblog.com/
     title: Google Open Source Blog
-    url: http://google-opensource.blogspot.com/
-- site:
+  url: http://google-opensource.blogspot.com/
+- detail:
     feeds: []
     og:
       image: null
@@ -167,8 +191,8 @@
       type: null
       url: null
     title: "Organisieren: f\xF6rderland"
-    url: http://imgriff.com/
-- site:
+  url: http://imgriff.com/
+- detail:
     feeds:
     - href: /feed.xml
       title: ''
@@ -179,8 +203,8 @@
       type: null
       url: null
     title: Jacob Kaplan-Moss
-    url: http://jacobian.org/
-- site:
+  url: http://jacobian.org/
+- detail:
     feeds:
     - href: http://jobtrainer-blog.de/?feed=rss2
       title: "Jobtrainer-Blog \xBB Feed"
@@ -197,8 +221,8 @@
       type: null
       url: null
     title: "F\xFCr Jobcoaches und Trainer in Arbeitsmarktprojekten"
-    url: http://jobtrainer-blog.de/
-- site:
+  url: http://jobtrainer-blog.de/
+- detail:
     feeds:
     - href: https://lifehacker.com/rss
       title: Lifehacker - All stories
@@ -207,10 +231,10 @@
       image: https://i.kinja-img.com/gawker-media/image/upload/s--OqAhAoNZ--/c_fill,fl_progressive,g_center,h_200,q_80,w_200/u0939doeuioaqhspkjyc.png
       title: Lifehacker - Tips, tricks and downloads for getting things done
       type: blog
-      url: https://lifehacker.com
+      url: https://lifehacker.com/
     title: Lifehacker - Tips, tricks and downloads for getting things done
-    url: http://lifehacker.com/
-- site:
+  url: http://lifehacker.com/
+- detail:
     feeds:
     - href: https://lwn.net/headlines/newrss
       title: LWN.net headlines
@@ -221,8 +245,8 @@
       type: null
       url: null
     title: Welcome to LWN.net [LWN.net]
-    url: http://lwn.net/
-- site:
+  url: http://lwn.net/
+- detail:
     feeds:
     - href: http://meedia.de/feed/
       title: "Meedia \xBB Feed"
@@ -239,8 +263,8 @@
       type: article
       url: http://meedia.de/
     title: "Deutschlands gro\xDFes Medien-Portal \u203A Meedia"
-    url: http://meedia.de/
-- site:
+  url: http://meedia.de/
+- detail:
     feeds:
     - href: https://metaebene.me/feed/
       title: "Metaebene Personal Media \xBB Feed"
@@ -260,8 +284,8 @@
       type: website
       url: https://metaebene.me/
     title: Metaebene Personal Media | Es gilt das gesprochene Wort
-    url: http://metaebene.me/
-- site:
+  url: http://metaebene.me/
+- detail:
     feeds: []
     og:
       image: null
@@ -269,8 +293,8 @@
       type: null
       url: null
     title: realtime.at - Domain gecatcht
-    url: http://moritzleuenberger.blueblog.ch/
-- site:
+  url: http://moritzleuenberger.blueblog.ch/
+- detail:
     feeds:
     - href: https://netzpolitik.org/feed/
       title: "netzpolitik.org \xBB Feed"
@@ -284,20 +308,20 @@
       type: null
       url: https://netzpolitik.org
     title: "netzpolitik.org \u2013 Plattform f\xFCr digitale Freiheitsrechte"
-    url: http://netzpolitik.org/
-- site:
+  url: http://netzpolitik.org/
+- detail:
     feeds:
     - href: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml
       title: RSS
       type: application/rss+xml
     og:
-      image: https://static01.nyt.com/images/icons/t_logo_291_black.png
+      image: https://static.nytimes.com/images/icons/t_logo_291_black.png
       title: Breaking News, World News & Multimedia
       type: website
       url: https://www.nytimes.com
     title: The New York Times - Breaking News, World News & Multimedia
-    url: https://www.nytimes.com
-- site:
+  url: https://www.nytimes.com
+- detail:
     feeds: []
     og:
       image: null
@@ -305,8 +329,8 @@
       type: article
       url: null
     title: Homepage | Opensource.com
-    url: http://opensource.com/
-- site:
+  url: http://opensource.com/
+- detail:
     feeds:
     - href: https://rss.packetstormsecurity.com/news/
       title: Packet Storm Headlines
@@ -326,8 +350,20 @@
       type: null
       url: null
     title: Packet Storm
-    url: http://packetstormsecurity.org/
-- site:
+  url: http://packetstormsecurity.org/
+- detail:
+    feeds:
+    - href: https://personalmarketing2null.de/feed/atom/
+      title: null
+      type: application/rss+xml
+    og:
+      image: https://i2.wp.com/personalmarketing2null.de/wp-content/uploads/2016/03/cropped-Arbeitgebermarketing2null.jpg?fit=512%2C512&ssl=1
+      title: Personalmarketing und Employer Branding aktuell, kompetent, authentisch
+      type: website
+      url: https://personalmarketing2null.de/
+    title: Personalmarketing und Employer Branding aktuell, kompetent, authentisch
+  url: http://personalmarketing2null.de/
+- detail:
     feeds:
     - href: rss10.xml
       title: RSS 1.0 Feed
@@ -344,8 +380,8 @@
       type: null
       url: null
     title: Planet Debian
-    url: http://planet.debian.org/
-- site:
+  url: http://planet.debian.org/
+- detail:
     feeds: []
     og:
       image: null
@@ -353,8 +389,8 @@
       type: website
       url: https://pr-blogger.de/
     title: PR-Blogger
-    url: http://pr-blogger.de/
-- site:
+  url: http://pr-blogger.de/
+- detail:
     feeds: []
     og:
       image: null
@@ -362,8 +398,8 @@
       type: null
       url: null
     title: Psychologie Nachrichten Heute - Ratgeber und Lexikon
-    url: http://psychologienachrichten.de/
-- site:
+  url: http://psychologienachrichten.de/
+- detail:
     feeds: []
     og:
       image: null
@@ -371,8 +407,8 @@
       type: null
       url: null
     title: ':::denn sie wissen nicht, was sie tun sollen:::'
-    url: http://rebellmarkt.blogger.de/
-- site:
+  url: http://rebellmarkt.blogger.de/
+- detail:
     feeds:
     - href: http://running.competitor.com/feed
       title: "Competitor.com \xBB Feed"
@@ -389,8 +425,8 @@
       type: website
       url: http://running.competitor.com/
     title: 'Competitor.com: Marathon Training Plans, Running Shoe Reviews, Nutrition...'
-    url: http://running.competitor.com/
-- site:
+  url: http://running.competitor.com/
+- detail:
     feeds:
     - href: http://www.atrailrunnersblog.com/feeds/posts/default
       title: A Trail Runner's Blog - Atom
@@ -407,8 +443,8 @@
       type: null
       url: http://www.atrailrunnersblog.com/
     title: A Trail Runner's Blog
-    url: http://runtrails.blogspot.com/
-- site:
+  url: http://runtrails.blogspot.com/
+- detail:
     feeds:
     - href: http://scienceblogs.de/feed/
       title: "ScienceBlogs auf Deutsch \xBB Feed"
@@ -422,8 +458,8 @@
       type: null
       url: null
     title: ScienceBlogs auf Deutsch
-    url: http://scienceblogs.de/
-- site:
+  url: http://scienceblogs.de/
+- detail:
     feeds: []
     og:
       image: null
@@ -431,8 +467,8 @@
       type: null
       url: null
     title: CXSECURITY.COM Free Security List
-    url: http://securityreason.com/
-- site:
+  url: http://securityreason.com/
+- detail:
     feeds:
     - href: http://rss.slashdot.org/Slashdot/slashdotMain
       title: Slashdot RSS
@@ -443,17 +479,17 @@
       type: null
       url: null
     title: 'Slashdot: News for nerds, stuff that matters'
-    url: http://slashdot.org/
-- site:
+  url: http://slashdot.org/
+- detail:
     feeds: []
     og:
       image: https://www.welt.de/assets/images/global/welt_brand-dd869f0cab.png
-      title: "WELT - Nachrichten, Hintergr\xFCnde, News & N24-Videos"
+      title: "WELT - Nachrichten, Hintergr\xFCnde, News & Videos"
       type: website
       url: https://www.welt.de/
-    title: "WELT - Nachrichten, Hintergr\xFCnde, News & N24-Videos"
-    url: http://welt.de/
-- site:
+    title: "WELT - Nachrichten, Hintergr\xFCnde, News & Videos"
+  url: http://welt.de/
+- detail:
     feeds:
     - href: http://www.achtneun.com/landing-page/feed/
       title: "89 \u2013 Alles M\xFCnchen. \xBB Landing Page Kommentar-Feed"
@@ -464,8 +500,8 @@
       type: website
       url: http://www.achtneun.com
     title: "89 \u2014 Ich bin M\xFCnchen"
-    url: http://www.achtneun.com/
-- site:
+  url: http://www.achtneun.com/
+- detail:
     feeds:
     - href: http://agilesoc.com/feed/
       title: "AgileSoC.com \xBB Feed"
@@ -474,13 +510,13 @@
       title: "AgileSoC.com \xBB Comments Feed"
       type: application/rss+xml
     og:
-      image: http://agilesoc.com/wp-content/uploads/2017/01/Slide3.png
+      image: https://i2.wp.com/agilesoc.com/wp-content/uploads/2017/01/Slide3.png?fit=720%2C540
       title: AgileSoC.com
       type: website
       url: http://agilesoc.com/
     title: AgileSoC.com | Bring Agile to the World of Hardware Development
-    url: http://www.agilesoc.com/
-- site:
+  url: http://www.agilesoc.com/
+- detail:
     feeds:
     - href: http://feeds.feedburner.com/alltagsforschung
       title: "Alltagsforschung \xBB Feed"
@@ -494,8 +530,8 @@
       type: website
       url: http://www.alltagsforschung.de/
     title: Alltagsforschung - Wissenschaft, die Wissen schafft
-    url: http://www.alltagsforschung.de/
-- site:
+  url: http://www.alltagsforschung.de/
+- detail:
     feeds:
     - href: http://www.antibuerokratieteam.net/feed/
       title: "antibuerokratieteam.net \xBB Feed"
@@ -509,8 +545,8 @@
       type: website
       url: http://www.antibuerokratieteam.net/
     title: "antibuerokratieteam.net \u2013 Relaunch Liberty."
-    url: http://www.antibuerokratieteam.net/
-- site:
+  url: http://www.antibuerokratieteam.net/
+- detail:
     feeds:
     - href: https://www.basicthinking.de/blog/feed/
       title: "BASIC thinking \xBB Feed"
@@ -526,8 +562,8 @@
       url: https://www.basicthinking.de/blog/
     title: "BASIC thinking \xE2\x80\x93 Online-Magazin f\xC3\xBCr Social Media, Marketing\
       \ und Business"
-    url: http://www.basicthinking.de/
-- site:
+  url: http://www.basicthinking.de/
+- detail:
     feeds:
     - href: http://www.best-practice-business.de/feed/
       title: "www.best-practice-business.de \xBB Feed"
@@ -544,8 +580,8 @@
       type: website
       url: http://www.best-practice-business.de/
     title: '- www.best-practice-business.de'
-    url: http://www.best-practice-business.de/
-- site:
+  url: http://www.best-practice-business.de/
+- detail:
     feeds:
     - href: https://ivanblatter.com/feed/
       title: "Ivan Blatter | Personal Trainer f\xFCr neues Zeitmanagement \xBB Feed"
@@ -559,8 +595,8 @@
       type: website
       url: https://ivanblatter.com/
     title: "Ivan Blatter | Personal Trainer f\xFCr neues Zeitmanagement"
-    url: http://www.blatternet.de/
-- site:
+  url: http://www.blatternet.de/
+- detail:
     feeds:
     - href: SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSS_Breg_aktuell/RSSNewsfeed.xml
       title: Bundesregierung kompakt
@@ -583,20 +619,17 @@
       type: null
       url: null
     title: Bundesregierung | Startseite
-    url: http://www.bundesregierung.de/
-- site:
-    feeds:
-    - href: http://www.codeplex.com/site/feeds/rss
-      title: CodePlex
-      type: application/rss+xml
+  url: http://www.bundesregierung.de/
+- detail:
+    feeds: []
     og:
-      image: http://www.codeplex.com/Images/codeplex.png
-      title: CodePlex
-      type: object
-      url: http://www.codeplex.com/
-    title: CodePlex - Open Source Project Hosting
-    url: http://www.codeplex.com/
-- site:
+      image: https://archive.codeplex.com/codeplex.png
+      title: CodePlex Archive
+      type: website
+      url: https://archive.codeplex.com/
+    title: CodePlex Archive
+  url: http://www.codeplex.com/
+- detail:
     feeds:
     - href: http://www.connectedmarketing.de/cm/atom.xml
       title: "Eintr\xE4ge aus 'ConnectedMarketing.de' (Atom)"
@@ -613,8 +646,8 @@
       type: blog
       url: http://www.connectedmarketing.de/cm/
     title: ConnectedMarketing.de
-    url: http://www.connectedmarketing.de/
-- site:
+  url: http://www.connectedmarketing.de/
+- detail:
     feeds:
     - href: https://www.dcrainmaker.com/feed
       title: "DC Rainmaker \xBB Feed"
@@ -628,8 +661,8 @@
       type: article
       url: https://www.dcrainmaker.com/
     title: DC Rainmaker
-    url: http://www.dcrainmaker.com/
-- site:
+  url: http://www.dcrainmaker.com/
+- detail:
     feeds:
     - href: http://www.der-postillon.com/feeds/posts/default
       title: Der Postillon - Atom
@@ -646,8 +679,8 @@
       type: null
       url: http://www.der-postillon.com/
     title: Der Postillon
-    url: http://www.der-postillon.com/
-- site:
+  url: http://www.der-postillon.com/
+- detail:
     feeds: []
     og:
       image: null
@@ -655,8 +688,8 @@
       type: null
       url: null
     title: The Web framework for perfectionists with deadlines | Django
-    url: http://www.djangoproject.com/
-- site:
+  url: http://www.djangoproject.com/
+- detail:
     feeds:
     - href: https://www.entscheiderblog.de/feed/
       title: "Entscheiderblog \xBB Feed"
@@ -675,8 +708,8 @@
     title: "Entscheiderblog \u2013 Mit \xFCber 900 Artikeln eine der gr\xF6\xDFten\
       \ deutschsprachigen Quellen zum Thema Entscheidung \u2013 Entscheidungen erfolgreich\
       \ gestalten"
-    url: http://www.entscheiderblog.de/
-- site:
+  url: http://www.entscheiderblog.de/
+- detail:
     feeds:
     - href: https://gizmodo.com/rss
       title: Gizmodo - All stories
@@ -685,10 +718,10 @@
       image: https://i.kinja-img.com/gawker-media/image/upload/s---erriNCS--/c_fill,fl_progressive,g_center,h_200,q_80,w_200/fdj3buryz5nuzyf2k620.png
       title: Gizmodo - We come from the future.
       type: blog
-      url: https://gizmodo.com
+      url: https://gizmodo.com/
     title: Gizmodo - We come from the future.
-    url: http://www.gizmodo.com
-- site:
+  url: http://www.gizmodo.com
+- detail:
     feeds: []
     og:
       image: null
@@ -696,8 +729,8 @@
       type: website
       url: https://www.gruenderszene.de
     title: "News zu Startups, Digitalwirtschaft und VC | Gr\xFCnderszene"
-    url: http://www.gruenderszene.de/
-- site:
+  url: http://www.gruenderszene.de/
+- detail:
     feeds: []
     og:
       image: null
@@ -705,8 +738,8 @@
       type: article
       url: http://www.guypo.com//index.html
     title: Guy's Pod
-    url: http://www.guypo.com/
-- site:
+  url: http://www.guypo.com/
+- detail:
     feeds:
     - href: /contentexport/feed/top-themen/
       title: 'Handelsblatt Online - RSS-Feed: Top-Themen'
@@ -717,8 +750,8 @@
       type: website
       url: http://www.handelsblatt.com/
     title: Handelsblatt - Nachrichten aus Wirtschaft, Finanzen und Politik
-    url: http://www.handelsblatt.com/
-- site:
+  url: http://www.handelsblatt.com/
+- detail:
     feeds:
     - href: https://www.zdf.de/rss/zdf/nachrichten
       title: RSS
@@ -730,8 +763,8 @@
       url: https://www.zdf.de/uri/c4b63bed-e97f-43e2-8750-7b2040362bcc
     title: "\n    \n        Aktuelle Nachrichten der ZDF heute Redaktion - ZDFmediathek\n\
       \    \n"
-    url: http://www.heute.de/
-- site:
+  url: http://www.heute.de/
+- detail:
     feeds:
     - href: /rss/index.html?feedId=News_Release
       title: IEEE.org - News Releases
@@ -743,23 +776,23 @@
       url: https://www.ieee.org/index.html
     title: IEEE - The world's largest technical professional organization dedicated
       to advancing technology for the benefit of humanity.
-    url: http://www.ieee.org/
-- site:
+  url: http://www.ieee.org/
+- detail:
     feeds:
-    - href: http://www.isarblog.de/feed/
+    - href: https://www.isarblog.de/feed/
       title: "ISARBLOG \xBB Feed"
       type: application/rss+xml
-    - href: http://www.isarblog.de/comments/feed/
+    - href: https://www.isarblog.de/comments/feed/
       title: "ISARBLOG \xBB Kommentar-Feed"
       type: application/rss+xml
     og:
       image: null
       title: ISARBLOG
       type: website
-      url: http://www.isarblog.de/
+      url: https://www.isarblog.de/
     title: "ISARBLOG - das M\xFCnchen Blog"
-    url: http://www.isarblog.de/
-- site:
+  url: http://www.isarblog.de/
+- detail:
     feeds:
     - href: http://www.jova-nova.com/rss.xml
       title: Winklers Blog
@@ -770,8 +803,8 @@
       type: null
       url: null
     title: Anders bewerben - Tipps vom Bewerbungshelfer
-    url: http://www.jova-nova.com/
-- site:
+  url: http://www.jova-nova.com/
+- detail:
     feeds:
     - href: https://www.kerstin-hoffmann.de/feed/
       title: "Dr. Kerstin Hoffmann Unternehmenskommunikation \xBB Feed"
@@ -790,8 +823,8 @@
       url: https://www.kerstin-hoffmann.de/
     title: "Unternehmenskommunikation, PR, Social Media, Content-Marketing - D\xFC\
       sseldorf"
-    url: http://www.kerstin-hoffmann.de/
-- site:
+  url: http://www.kerstin-hoffmann.de/
+- detail:
     feeds:
     - href: http://www.kraftfuttermischwerk.de/blogg/feed/
       title: "Das Kraftfuttermischwerk \xBB Feed"
@@ -800,13 +833,13 @@
       title: "Das Kraftfuttermischwerk \xBB Kommentar-Feed"
       type: application/rss+xml
     og:
-      image: http://www.kraftfuttermischwerk.de/blogg/wp-content/uploads2/2018/01/Bildschirmfoto-2018-01-07-um-00.25.10.png
+      image: http://www.kraftfuttermischwerk.de/blogg/wp-content/uploads2/2018/03/image-1216979-860_poster_16x9-cjne-1216979.jpg
       title: Das Kraftfuttermischwerk
       type: website
-      url: http://www.kraftfuttermischwerk.de/blogg/ein-genie-bei-der-arbeit/
+      url: http://www.kraftfuttermischwerk.de/blogg/landgericht-erklaert-anti-hoecke-mahnmal-zu-kunst/
     title: "Das Kraftfuttermischwerk \u2013 Liebe. Freiheit. Alles! Und Musik."
-    url: http://www.kraftfuttermischwerk.de/
-- site:
+  url: http://www.kraftfuttermischwerk.de/
+- detail:
     feeds:
     - href: http://feeds.laughingsquid.com/laughingsquid
       title: "Laughing Squid \xBB Feed"
@@ -815,13 +848,13 @@
       title: "Laughing Squid \xBB Comments Feed"
       type: application/rss+xml
     og:
-      image: https://laughingsquid.com/wp-content/uploads/2017/08/laughing-squid-facebook-open-graph.png
+      image: https://laughingsquid.com/wp-content/uploads/2018/03/laughing-squid-facbook-open-graph.jpg
       title: Laughing Squid
       type: website
       url: https://laughingsquid.com/
     title: Laughing Squid
-    url: http://www.laughingsquid.com/
-- site:
+  url: http://www.laughingsquid.com/
+- detail:
     feeds:
     - href: http://www.lawblog.de/index.php/feed/
       title: "law blog \xBB Feed"
@@ -832,8 +865,8 @@
       type: null
       url: null
     title: law blog
-    url: http://www.lawblog.de/
-- site:
+  url: http://www.lawblog.de/
+- detail:
     feeds:
     - href: /node/feed
       title: Front page feed
@@ -844,8 +877,8 @@
       type: null
       url: null
     title: Linux Journal | The Original Magazine of the Linux Community
-    url: http://www.linuxjournal.com/
-- site:
+  url: http://www.linuxjournal.com/
+- detail:
     feeds:
     - href: https://www.lobbycontrol.de/feed/
       title: "LobbyControl \xBB Feed"
@@ -859,8 +892,8 @@
       type: website
       url: https://www.lobbycontrol.de/
     title: Dem Lobbyismus Schranken setzen | LobbyControl
-    url: http://www.lobbycontrol.de/blog/
-- site:
+  url: http://www.lobbycontrol.de/blog/
+- detail:
     feeds:
     - href: http://feeds.macrumors.com/MacRumors-All
       title: All Mac Rumors Headlines
@@ -880,8 +913,8 @@
       type: website
       url: https://www.macrumors.com/
     title: 'Mac Rumors: Apple Mac iOS Rumors and News You Care About'
-    url: http://www.macrumors.com
-- site:
+  url: http://www.macrumors.com
+- detail:
     feeds:
     - href: http://www.manager-magazin.de/news/index.rss
       title: manager magazin als RSS-Feed
@@ -892,8 +925,8 @@
       type: article
       url: http://www.manager-magazin.de/
     title: manager magazin - Wirtschaftsnachrichten
-    url: http://www.manager-magazin.de/
-- site:
+  url: http://www.manager-magazin.de/
+- detail:
     feeds:
     - href: http://minkorrekt.de/feed/
       title: "Methodisch inkorrekt \xBB Feed"
@@ -919,8 +952,8 @@
       type: null
       url: null
     title: Methodisch inkorrekt | der methodisch inkorrekte Wissenschaftspodcast
-    url: http://www.minkorrekt.de
-- site:
+  url: http://www.minkorrekt.de
+- detail:
     feeds:
     - href: https://motherboard.vice.com/de/rss
       title: motherboard
@@ -931,8 +964,8 @@
       type: null
       url: https://motherboard.vice.com/de
     title: Motherboard - The future is wonderful, the future is terrifying.
-    url: http://www.motherboard.tv/
-- site:
+  url: http://www.motherboard.tv/
+- detail:
     feeds:
     - href: https://www.mucbook.de/feed/
       title: "MUCBOOK \xBB Feed"
@@ -949,8 +982,8 @@
       type: website
       url: https://www.mucbook.de/
     title: "MUCBOOK - Das M\xFCnchner Stadtmagazin"
-    url: http://www.mucbook.de/
-- site:
+  url: http://www.mucbook.de/
+- detail:
     feeds: []
     og:
       image: null
@@ -958,8 +991,8 @@
       type: website
       url: http://www.muenchenblogger.de/
     title: "M\xFCnchenBlogger - Das Stadtblog f\xFCr M\xFCnchen"
-    url: http://www.muenchenblogger.de/
-- site:
+  url: http://www.muenchenblogger.de/
+- detail:
     feeds:
     - href: /rss.php
       title: u-bahn-muenchen.de Aktuell
@@ -970,26 +1003,17 @@
       type: landmark
       url: https://www.u-bahn-muenchen.de/
     title: "U-Bahn M\xFCnchen - Aktuelles"
-    url: http://www.muenchnerubahn.de/
-- site:
-    feeds:
-    - href: //www.nerdcore.de/feed/
-      title: Nerdcore (RSS)
-      type: application/rss+xml
-    - href: //feeds.feedburner.com/nc-podcast
-      title: Wowcast (RSS)
-      type: application/rss+xml
-    - href: //feeds.feedburner.com/nc-pc
-      title: NC-Podcast (RSS)
-      type: application/rss+xml
+  url: http://www.muenchnerubahn.de/
+- detail:
+    feeds: []
     og:
-      image: http://www.nerdcore.de/wp-content/uploads/2018/01/bmbmbm.jpg
-      title: Black Mirror Staffel 4 (Review)
-      type: article
-      url: https://www.nerdcore.de/2018/01/05/black-mirror-staffel-4-review/
-    title: "Nerdcore \u203A Made you look."
-    url: http://www.nerdcore.de/
-- site:
+      image: https://nerdcore.de/wp-content/uploads/2018/03/icon_2.png
+      title: Oh hai.
+      type: Maintenance
+      url: http://nerdcore.de
+    title: Oh hai.
+  url: http://www.nerdcore.de/
+- detail:
     feeds:
     - href: http://www.personalmarketingblog.de/feed
       title: Personalmarketingblog RSS Feed
@@ -1009,17 +1033,17 @@
       type: null
       url: null
     title: ' Personalmarketingblog'
-    url: http://www.personalmarketingblog.de/
-- site:
+  url: http://www.personalmarketingblog.de/
+- detail:
     feeds: []
     og:
-      image: http://phdcomics.com/comics/archive/phd122217s.gif
+      image: http://phdcomics.com/comics/archive/phd031418s.gif
       title: null
       type: null
       url: null
-    title: "\n\tPHD Comics: On the side"
-    url: http://www.phdcomics.com/
-- site:
+    title: "\n\tPHD Comics: Misunderreading"
+  url: http://www.phdcomics.com/
+- detail:
     feeds:
     - href: https://pornoanwalt.de/?feed=rss2
       title: "PORNOANWALT \xBB Feed"
@@ -1033,8 +1057,8 @@
       type: null
       url: null
     title: PORNOANWALT
-    url: http://www.pornoanwalt.de/
-- site:
+  url: http://www.pornoanwalt.de/
+- detail:
     feeds:
     - href: https://www.python.org/dev/peps/peps.rss/
       title: Python Enhancement Proposals
@@ -1054,8 +1078,8 @@
       type: website
       url: https://www.python.org/
     title: Welcome to Python.org
-    url: http://www.python.org
-- site:
+  url: http://www.python.org
+- detail:
     feeds:
     - href: http://www.rumohr.de/feed/
       title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Feed"
@@ -1063,21 +1087,21 @@
     - href: http://www.rumohr.de/comments/feed/
       title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Kommentar-Feed"
       type: application/rss+xml
-    - href: http://www.rumohr.de/key-note-speaker-redner-referent/feed/
-      title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Redner,\
-        \ Trainer, Buchautor \u2013 Joachim Rumohr Kommentar-Feed"
+    - href: http://www.rumohr.de/home/feed/
+      title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung \xBB Home\
+        \ Kommentar-Feed"
       type: application/rss+xml
     - href: http://www.rumohr.de/feed/
       title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung RSS2 Feed"
       type: application/rss+xml
     og:
-      image: http://www.rumohr.de/wp-content/uploads/2014/09/facebook-beitragsbild.jpg
-      title: Redner, Trainer, Buchautor - Joachim Rumohr
+      image: http://www.rumohr.de/wp-content/uploads/2016/01/XING-Profilbild.jpg
+      title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung"
       type: website
       url: http://www.rumohr.de/
-    title: Redner, Trainer, Buchautor - Joachim Rumohr
-    url: http://www.rumohr.de/
-- site:
+    title: "Joachim Rumohr - Akademie f\xFCr digitale Kundengewinnung"
+  url: http://www.rumohr.de/
+- detail:
     feeds:
     - href: https://runblogger.com/feed
       title: "Runblogger \xBB Feed"
@@ -1092,8 +1116,8 @@
       url: null
     title: "Runblogger \u2013 Running Shoes, Gear Reviews, and Posts on the Science\
       \ of the Sport"
-    url: http://www.runblogger.com/
-- site:
+  url: http://www.runblogger.com/
+- detail:
     feeds:
     - href: http://www.schlaflosinmuenchen.com/feed/
       title: "Schlaflos in M\xFCnchen \u2013 der Podcast mit Annik Rubens RSS Feed"
@@ -1104,8 +1128,8 @@
       type: null
       url: null
     title: "Schlaflos in M\xFCnchen \u2013 der Podcast mit Annik Rubens  "
-    url: http://www.schlaflosinmuenchen.com/
-- site:
+  url: http://www.schlaflosinmuenchen.com/
+- detail:
     feeds:
     - href: http://www.schleckysilberstein.com/feed/
       title: "Schlecky Silberstein \xBB Feed"
@@ -1119,8 +1143,8 @@
       type: null
       url: null
     title: "Schlecky Silberstein \u2013 DIE JOGGINGHOSE F\xC3\x9CR DEN KOPF"
-    url: http://www.schleckysilberstein.com/
-- site:
+  url: http://www.schleckysilberstein.com/
+- detail:
     feeds:
     - href: https://www.schneier.com/blog/atom.xml
       title: Blog Feed (Atom 1.0)
@@ -1131,8 +1155,8 @@
       type: null
       url: null
     title: Schneier on Security
-    url: http://www.schneier.com/
-- site:
+  url: http://www.schneier.com/
+- detail:
     feeds:
     - href: //www.securiteam.com/securiteam.rss
       title: SecuriTeam RSS
@@ -1144,8 +1168,8 @@
       url: null
     title: SecuriTeam.com - A Free Accurate and Independent Source of Vulnerability
       Information
-    url: http://www.securiteam.com
-- site:
+  url: http://www.securiteam.com
+- detail:
     feeds:
     - href: http://rss.slashdot.org/Slashdot/slashdotMain
       title: Slashdot RSS
@@ -1156,8 +1180,8 @@
       type: null
       url: null
     title: 'Slashdot: News for nerds, stuff that matters'
-    url: http://www.slashdot.org
-- site:
+  url: http://www.slashdot.org
+- detail:
     feeds:
     - href: http://www.spiegelfechter.com/wordpress/feed
       title: RSS 2.0
@@ -1177,8 +1201,8 @@
       type: website
       url: http://www.spiegelfechter.com/wordpress/
     title: ' Spiegelfechter'
-    url: http://www.spiegelfechter.com/
-- site:
+  url: http://www.spiegelfechter.com/
+- detail:
     feeds:
     - href: http://www.tagesschau.de/xml/rss2
       title: tagesschau.de RSS2-Feed
@@ -1190,8 +1214,8 @@
       url: https://www.tagesschau.de/index.html
     title: Aktuelle Nachrichten - Inland Ausland Wirtschaft Kultur Sport - ARD Tagesschau
       | tagesschau.de
-    url: http://www.tagesschau.de
-- site:
+  url: http://www.tagesschau.de
+- detail:
     feeds:
     - href: http://www.techhive.com/index.rss
       title: RSS Feed
@@ -1204,8 +1228,8 @@
       url: https://www.techhive.com
     title: TechHive - News, reviews and tips about smart homes, home security, and
       home entertainment
-    url: http://www.techhive.com
-- site:
+  url: http://www.techhive.com
+- detail:
     feeds:
     - href: https://www.techmeme.com/feed.xml
       title: RSS
@@ -1216,8 +1240,8 @@
       type: null
       url: null
     title: Techmeme
-    url: http://www.techmeme.com
-- site:
+  url: http://www.techmeme.com
+- detail:
     feeds: []
     og:
       image: null
@@ -1225,17 +1249,17 @@
       type: null
       url: null
     title: Resources and Tools for IT Professionals | TechNet
-    url: http://www.technet.com/
-- site:
+  url: http://www.technet.com/
+- detail:
     feeds: []
     og:
       image: ''
       title: ''
       type: article
-      url: http://www.techradar.com/
+      url: https://www.techradar.com
     title: TechRadar | The source for tech buying advice | TechRadar
-    url: http://www.techradar.com
-- site:
+  url: http://www.techradar.com
+- detail:
     feeds:
     - href: http://www.the-future-of-commerce.com/feed/
       title: "The Future of Customer Engagement and Commerce \xBB Feed"
@@ -1248,10 +1272,10 @@
       title: The Future of Customer Engagement and Commerce
       type: website
       url: http://www.the-future-of-commerce.com/
-    title: The Future of Customer Engagement and Commerce - Your destination for relevant,
-      timely information & analysis on commerce trends, both consumer-facing and B2B.
-    url: http://www.the-future-of-commerce.com/
-- site:
+    title: The Future of Customer Engagement and Commerce - Relevant, timely information
+      & analysis on commerce trends, both consumer-facing and B2B.
+  url: http://www.the-future-of-commerce.com/
+- detail:
     feeds:
     - href: http://www.thomashutter.com/index.php/feed/
       title: ' RSS Feed'
@@ -1263,8 +1287,8 @@
       url: http://www.thomashutter.com
     title: Facebook Marketing Blog - Thomas Hutter Facebook Marketing Experte - Aktuelle
       News zu Facebook
-    url: http://www.thomashutter.com/index.php/
-- site:
+  url: http://www.thomashutter.com/index.php/
+- detail:
     feeds:
     - href: https://toolblog.de/feed/
       title: "ToolBlog \xBB Feed"
@@ -1281,8 +1305,8 @@
       type: website
       url: https://toolblog.de/
     title: "Stephan List \xFCber Produktivit\xE4t bei der Arbeit \u203A ToolBlog"
-    url: http://www.toolblog.de/
-- site:
+  url: http://www.toolblog.de/
+- detail:
     feeds:
     - href: https://www.vice.com/de/rss
       title: vice
@@ -1294,8 +1318,8 @@
       url: https://www.vice.com/de
     title: 'VICE - Unbequemer Journalismus und Dokus zu allem, was wichtig ist auf
       der Welt. '
-    url: http://www.vice.com/
-- site:
+  url: http://www.vice.com/
+- detail:
     feeds: []
     og:
       image: https://vice-images.vice.com/images/articles/meta/2015/11/04/were-launching-a-tv-channel-194-1446653542.jpg
@@ -1303,8 +1327,8 @@
       type: website
       url: https://www.viceland.com/en_us
     title: 'VICELAND: The new TV channel from VICE.'
-    url: http://www.viceland.com/
-- site:
+  url: http://www.viceland.com/
+- detail:
     feeds:
     - href: http://www.visualcapitalist.com/feed/
       title: "Visual Capitalist \xBB Feed"
@@ -1318,8 +1342,8 @@
       type: website
       url: http://www.visualcapitalist.com/
     title: Visual Capitalist
-    url: http://www.visualcapitalist.com
-- site:
+  url: http://www.visualcapitalist.com
+- detail:
     feeds: []
     og:
       image: null
@@ -1327,8 +1351,8 @@
       type: null
       url: null
     title: Home - Web Application Security Consortium
-    url: http://www.webappsec.org/
-- site:
+  url: http://www.webappsec.org/
+- detail:
     feeds:
     - href: https://wollmilchsau.de/home/feed/
       title: "Wollmilchsau GmbH \xBB Home Kommentar-Feed"
@@ -1339,8 +1363,8 @@
       type: website
       url: https://wollmilchsau.de/
     title: Wollmilchsau GmbH - wir machen den Jobspreader
-    url: http://www.wollmilchsau.de/
-- site:
+  url: http://www.wollmilchsau.de/
+- detail:
     feeds: []
     og:
       image: null
@@ -1349,8 +1373,8 @@
       url: null
     title: "wosolldasallesenden.de\_-&nbspDiese; Website steht zum Verkauf!\_-&nbspInformationen;\
       \ zum Thema wosolldasallesenden."
-    url: http://www.wosolldasallesenden.de/
-- site:
+  url: http://www.wosolldasallesenden.de/
+- detail:
     feeds:
     - href: https://wrint.de/feed/
       title: "WRINT: Wer redet ist nicht tot \xBB Feed"
@@ -1364,8 +1388,8 @@
       type: null
       url: null
     title: "WRINT: Wer redet ist nicht tot | Gespr\xE4che zum Runterladen (vulg. Podcast)"
-    url: http://www.wrint.de/
-- site:
+  url: http://www.wrint.de/
+- detail:
     feeds:
     - href: /atom.xml
       title: Atom 1.0
@@ -1378,9 +1402,9 @@
       title: null
       type: null
       url: null
-    title: 'xkcd: Meltdown and Spectre'
-    url: http://xkcd.com/
-- site:
+    title: 'xkcd: Name Dominoes'
+  url: http://xkcd.com/
+- detail:
     feeds:
     - href: https://9to5mac.com/feed/
       title: "9to5Mac \xBB Feed"
@@ -1394,8 +1418,8 @@
       type: website
       url: https://9to5mac.com/
     title: 9to5Mac | Apple News & Mac Rumors Breaking All Day
-    url: https://9to5mac.com
-- site:
+  url: https://9to5mac.com
+- detail:
     feeds:
     - href: https://blog.cloudflare.com/rss/
       title: Cloudflare Blog
@@ -1406,8 +1430,8 @@
       type: website
       url: https://blog.cloudflare.com/
     title: Cloudflare Blog
-    url: https://blog.cloudflare.com
-- site:
+  url: https://blog.cloudflare.com
+- detail:
     feeds:
     - href: https://dailyfintech.com/feed/
       title: "Daily Fintech \xBB Feed"
@@ -1422,8 +1446,8 @@
       url: https://dailyfintech.com/
     title: "Daily Fintech \u2013 Fintech Trends & Analysis 22,000 subscribers from\
       \ 172 countries"
-    url: https://dailyfintech.com
-- site:
+  url: https://dailyfintech.com
+- detail:
     feeds:
     - href: https://epicenter.works/rss.xml
       title: epicenter.works RSS
@@ -1434,8 +1458,8 @@
       type: null
       url: null
     title: epicenter.works | Zivilgesellschaft wirkt!
-    url: https://epicenter.works/
-- site:
+  url: https://epicenter.works/
+- detail:
     feeds:
     - href: http://financialcryptography.com/index.rdf
       title: RSS
@@ -1446,8 +1470,8 @@
       type: null
       url: null
     title: Financial Cryptography
-    url: https://financialcryptography.com/
-- site:
+  url: https://financialcryptography.com/
+- detail:
     feeds: []
     og:
       image: https://assets-cdn.github.com/images/modules/open_graph/github-logo.png
@@ -1455,8 +1479,8 @@
       type: null
       url: https://github.com
     title: "The world's leading software development platform \xB7 GitHub"
-    url: https://github.com/
-- site:
+  url: https://github.com/
+- detail:
     feeds:
     - href: https://neumeier.org/feed/
       title: "neumeier.org \xBB Feed"
@@ -1465,28 +1489,28 @@
       title: "neumeier.org \xBB Comments Feed"
       type: application/rss+xml
     og:
-      image: https://s0.wp.com/i/blank.jpg
-      title: neumeier.org
-      type: website
-      url: https://neumeier.org/
+      image: null
+      title: null
+      type: null
+      url: null
     title: neumeier.org
-    url: https://neumeier.org/
-- site:
+  url: https://neumeier.org/
+- detail:
     feeds:
-    - href: https://nomorecubes.net/feed/
-      title: "\u2606 No more cubes. \xBB Feed"
+    - href: https://www.nomorecubes.net/feed/
+      title: "\U0001F4F4 no more cubes \xBB Feed"
       type: application/rss+xml
-    - href: https://nomorecubes.net/comments/feed/
-      title: "\u2606 No more cubes. \xBB Comments Feed"
+    - href: https://www.nomorecubes.net/comments/feed/
+      title: "\U0001F4F4 no more cubes \xBB Comments Feed"
       type: application/rss+xml
     og:
-      image: null
-      title: "\u2606 No more cubes."
+      image: https://s0.wp.com/i/blank.jpg
+      title: "\U0001F4F4 no more cubes"
       type: website
-      url: https://nomorecubes.net/
-    title: "\u2606 No more cubes. \u2013 deus ex digital."
-    url: https://nomorecubes.net
-- site:
+      url: https://www.nomorecubes.net/
+    title: "\U0001F4F4 no more cubes \u2013 deus ex digital"
+  url: https://nomorecubes.net
+- detail:
     feeds:
     - href: https://techcrunch.com/feed/
       title: "TechCrunch \xBB Feed"
@@ -1495,13 +1519,13 @@
       title: "TechCrunch \xBB Comments Feed"
       type: application/rss+xml
     og:
-      image: https://tctechcrunch2011.files.wordpress.com/2018/01/dscf3575.jpg?w=764&h=400&crop=1
-      title: TechCrunch
+      image: https://techcrunch.com/wp-content/themes/techcrunch-2017/images/opengraph-default.png
+      title: ''
       type: website
       url: http://social.techcrunch.com/
-    title: TechCrunch - The latest technology news and information on startups
-    url: https://techcrunch.com
-- site:
+    title: "TechCrunch \u2013 Startup and Technology News"
+  url: https://techcrunch.com
+- detail:
     feeds: []
     og:
       image: https://www.economist.com/sites/default/files/the-economist-logo.gif
@@ -1509,20 +1533,32 @@
       type: article
       url: https://www.economist.com/rss
     title: RSS Feeds | The Economist
-    url: https://www.economist.com/rss
-- site:
+  url: https://www.economist.com/rss
+- detail:
     feeds:
     - href: //www.engadget.com/rss.xml
       title: Engadget
       type: application/rss+xml
     og:
-      image: https://s.blogsmithmedia.com/www.engadget.com/assets-hb6bc956f3ac1a48598284bd1a94db03a/images/eng-logo-928x201.png?h=f2ab80e02d55834504088500b44a23cf
+      image: https://s.blogsmithmedia.com/www.engadget.com/assets-h159e8c9b49d08fd74b1f658dac6e12df/images/eng-logo-928x201.png?h=f2ab80e02d55834504088500b44a23cf
       title: Engadget
       type: website
       url: https://www.engadget.com/
     title: Engadget
-    url: https://www.engadget.com
-- site:
+  url: https://www.engadget.com
+- detail:
+    feeds:
+    - href: /latest/rss?truncated=true
+      title: RSS
+      type: application/rss+xml
+    og:
+      image: https://images.fastcompany.net/image/upload/v1480632834/fast-company-share-graphic.png
+      title: Fast Company | The future of business
+      type: website
+      url: https://www.fastcompany.com
+    title: Fast Company | The future of business
+  url: https://www.fastcompany.com
+- detail:
     feeds:
     - href: /rss/aktuell/
       title: FAZ.NET
@@ -1533,8 +1569,8 @@
       type: null
       url: http://www.faz.net/
     title: Aktuelle Nachrichten online - FAZ.NET
-    url: https://www.faz.net
-- site:
+  url: https://www.faz.net
+- detail:
     feeds:
     - href: https://www.heise.de/newsticker/heise-atom.xml
       title: Aktuelle News von heise online
@@ -1543,14 +1579,14 @@
       title: "Aktuelle News von heise online (f\xFCr \xE4ltere RSS-Reader)"
       type: application/rss+xml
     og:
-      image: https://www.heise.de/icons/ho/heise_online_facebook_social_graph.png
+      image: https://heise.cloudimg.io/bound/1920x1920/q90.png-lossy-90.webp-lossy-90.foil1/_www-heise-de_/icons/ho/heise_online_facebook_social_graph.png
       title: heise online
       type: website
       url: https://www.heise.de/
     title: "\n        heise online - IT-News, Nachrichten und Hintergr\xFCnde\n  \
       \  heise online\n"
-    url: https://www.heise.de
-- site:
+  url: https://www.heise.de
+- detail:
     feeds:
     - href: http://www.spiegel.de/schlagzeilen/index.rss
       title: SPIEGEL ONLINE RSS Schlagzeilen
@@ -1564,23 +1600,8 @@
       type: null
       url: null
     title: SPIEGEL ONLINE - Aktuelle Nachrichten
-    url: https://www.spiegel.de
-- site:
-    feeds:
-    - href: http://www.spiegel.de/schlagzeilen/index.rss
-      title: SPIEGEL ONLINE RSS Schlagzeilen
-      type: application/rss+xml
-    - href: http://www.spiegel.de/index.rss
-      title: SPIEGEL ONLINE RSS Nachrichten
-      type: application/rss+xml
-    og:
-      image: null
-      title: null
-      type: null
-      url: null
-    title: SPIEGEL ONLINE - Aktuelle Nachrichten
-    url: https://www.spiegel.de/
-- site:
+  url: https://www.spiegel.de
+- detail:
     feeds:
     - href: http://rssfeed.sueddeutsche.de/c/795/f/449002/index.rss
       title: sueddeutsche.de RSS Feed
@@ -1591,20 +1612,20 @@
       type: null
       url: http://www.sueddeutsche.de/
     title: "Nachrichten aus Politik, Kultur, Wirtschaft und Sport - S\xFCddeutsche.de"
-    url: https://www.sueddeutsche.de
-- site:
+  url: https://www.sueddeutsche.de
+- detail:
     feeds:
     - href: https://www.theguardian.com/international/rss
       title: RSS
       type: application/rss+xml
     og:
-      image: https://assets.guim.co.uk/images/2170b16eb045a34f8c79761b203627b4/fallback-logo.png
+      image: https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png
       title: News, sport and opinion from the Guardian's global edition | The Guardian
       type: website
       url: http://www.theguardian.com/international
     title: News, sport and opinion from the Guardian's global edition | The Guardian
-    url: https://www.theguardian.com/international
-- site:
+  url: https://www.theguardian.com/international
+- detail:
     feeds:
     - href: /rss/index.xml
       title: The Verge
@@ -1618,4 +1639,4 @@
       type: website
       url: https://www.theverge.com/
     title: The Verge
-    url: https://www.theverge.com
+  url: https://www.theverge.com
