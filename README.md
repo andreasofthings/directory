@@ -1,9 +1,9 @@
-blogsdirectory
-==============
+# directory
 
-Blogs-Directory is a collection of websites that offer their information in form of parsable feeds. The information is being used to populate feedreaders. Categorization is, at this stage in the project, out of scope. If categorizatoin is required, it can be added manually or automatically through other projects.
 
-urls.yaml
+Directory is a collection of websites that offer their information in form of parsable feeds. The information is being used to populate feedreaders. Categorization is, at this stage in the project, out of scope. If categorizatoin is required, it can be added manually or automatically through other projects.
+
+urls.md
 ---------
 
   The primary collection of news websites. It is meant as the directory of blogs and/or news sources. You are welcome to contribute to that collection.
