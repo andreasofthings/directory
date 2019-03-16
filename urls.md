@@ -1,6 +1,7 @@
-# Websites:
+# Websites
 - http://agilesysadmin.net/
-  tags: ['agile']
+  tags:
+    - agile 
 - http://allthingsd.com/
 - http://arstechnica.com/
 - http://berufung-selbststaendig.de/
