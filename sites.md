@@ -122,6 +122,7 @@
 - https://www.heise.de
 - https://www.minkorrekt.de/
 - https://www.nytimes.com/
+- [Red Monk](https://redmonk.com)
 - https://www.recode.net/
 - https://www.spiegel.de/
 - https://www.sueddeutsche.de/
