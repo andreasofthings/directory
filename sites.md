@@ -121,6 +121,7 @@
 - https://www.faz.net
 - https://www.heise.de
 - https://www.minkorrekt.de/
+- [One Graph](https://www.onegraph.com/)
 - https://www.nytimes.com/
 - [Red Monk](https://redmonk.com)
 - https://www.recode.net/
