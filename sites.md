@@ -105,6 +105,7 @@
 - http://xkcd.com/
 - https://9to5mac.com/
 - https://blog.cloudflare.com/
+- [Consellation Research](https://www.constellationr.com/)
 - https://dailyfintech.com/
 - https://epicenter.works/
 - https://financialcryptography.com/
