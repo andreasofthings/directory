@@ -106,6 +106,7 @@
 - http://xkcd.com/
 - https://9to5mac.com/
 - https://blog.cloudflare.com/
+- [Consellation Research](https://www.constellationr.com/)
 - https://dailyfintech.com/
 - https://epicenter.works/
 - https://financialcryptography.com/
@@ -123,6 +124,8 @@
 - [Heise](https://www.heise.de)
 - [Methodisch Inkorrekt](https://www.minkorrekt.de/)
 - [The New York Times](https://www.nytimes.com/)
+- [One Graph](https://www.onegraph.com/)
+- [Red Monk](https://redmonk.com)
 - [Recode](https://www.recode.net/)
 - [Der Spiegel](https://www.spiegel.de/)
 - [Süddeutsche](https://www.sueddeutsche.de/)
