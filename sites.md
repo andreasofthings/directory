@@ -20,9 +20,9 @@
 - http://lifehacker.com/
 - http://lwn.net/
 - http://meedia.de/
-- http://metaebene.me/
+- [Metaebene](http://metaebene.me/)
 - http://moritzleuenberger.blueblog.ch/
-- http://netzpolitik.org/
+- [Netzpolitik.org](http://netzpolitik.org/)
 - http://opensource.com/
 - http://packetstormsecurity.org/
 - http://personalmarketing2null.de/
@@ -67,7 +67,6 @@
 - http://www.lobbycontrol.de/blog/
 - http://www.macrumors.com/
 - http://www.manager-magazin.de/
-- http://www.metaebene.me/
 - http://www.motherboard.tv/
 - http://www.mucbook.de/
 - http://www.muenchen.info/
