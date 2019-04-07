@@ -1,6 +1,7 @@
 # sites
-- http://agilesysadmin.net/
-- http://allthingsd.com/
+- [agilesysadmin](http://agilesysadmin.net/)
+- [all things d](http://allthingsd.com/)
+  - discontinued
 - http://arstechnica.com/
 - http://berufung-selbststaendig.de/
 - http://blog.fefe.de/
@@ -116,14 +117,15 @@
 - https://www.androidauthority.com/
 - https://www.economist.com/rss
 - https://www.engadget.com/
-- https://www.fastcompany.com/
+- [Fast Company](https://www.fastcompany.com/)
 - https://www.faz.de/
-- https://www.faz.net
-- https://www.heise.de
-- https://www.minkorrekt.de/
-- https://www.nytimes.com/
-- https://www.recode.net/
-- https://www.spiegel.de/
-- https://www.sueddeutsche.de/
-- https://www.theguardian.com/international
-- https://www.theverge.com/
+- [Frankfurter Allgemeine](https://www.faz.net)
+- [Heise](https://www.heise.de)
+- [Methodisch Inkorrekt](https://www.minkorrekt.de/)
+- [The New York Times](https://www.nytimes.com/)
+- [Recode](https://www.recode.net/)
+- [Der Spiegel](https://www.spiegel.de/)
+- [Süddeutsche](https://www.sueddeutsche.de/)
+- [The Guardian](https://www.theguardian.com/international)
+- [The Verge](https://www.theverge.com/)
+- [Wall Street Journal](https://www.wsj.com/news/rss-news-and-feeds)
