@@ -1,9 +1,8 @@
 # Directory
 - [agilesysadmin](http://agilesysadmin.net/)
 - [all things d](http://allthingsd.com/)
-- http://arstechnica.com/
+
 - http://berufung-selbststaendig.de/
-- http://blog.fefe.de/
 - http://blog.hays.de/
 - http://blog.recrutainment.de/
 - http://boerse.ard.de/
@@ -93,41 +92,42 @@
 - http://www.the-future-of-commerce.com/
 - http://www.thomashutter.com/index.php/
 - http://www.toolblog.de/
-- http://www.vice.com/
 - http://www.viceland.com/
 - http://www.visualcapitalist.com/
 - http://www.webappsec.org/
 - http://www.welt.de/export/
 - http://www.wollmilchsau.de/
 - http://www.wosolldasallesenden.de/
-- http://www.wrint.de/
-- http://xkcd.com/
-- https://9to5mac.com/
-- https://blog.cloudflare.com/
+- [WRINT](http://www.wrint.de/)
+- [XKCD](http://xkcd.com/)
+- [9to5 Mac](https://9to5mac.com/)
+- [Arstechnica](https://arstechnica.com/)
+- [Fefe](https://blog.fefe.de/)
+- [Cloudflare Blog](https://blog.cloudflare.com/)
 - [Consellation Research](https://www.constellationr.com/)
-- https://dailyfintech.com/
-- https://epicenter.works/
-- https://financialcryptography.com/
-- https://github.com/
-- https://neumeier.org/
-- https://nomorecubes.net/
-- https://techcrunch.com/
-- https://theintercept.com/
-- https://www.androidauthority.com/
-- https://www.economist.com/rss
-- https://www.engadget.com/
+- [Daily Fintech](https://dailyfintech.com/)
+- [Epicenter works](https://epicenter.works/)
+- [Finacial Cryptography](https://financialcryptography.com/)
+- [Github](https://github.com/)
+- [neumeier.org](https://neumeier.org/)
+- [No more cubes.](https://nomorecubes.net/)
+- [Techcrunch](https://techcrunch.com/)
+- [The Intercept](https://theintercept.com/)
+- [Android Authority](https://www.androidauthority.com/)
+- [The Economist](https://www.economist.com/rss)
+- [Engadget](https://www.engadget.com/)
 - [Fast Company](https://www.fastcompany.com/)
-- https://www.faz.de/
 - [Frankfurter Allgemeine](https://www.faz.net)
 - [Heise](https://www.heise.de)
 - [Methodisch Inkorrekt](https://www.minkorrekt.de/)
 - [The New York Times](https://www.nytimes.com/)
 - [One Graph](https://www.onegraph.com/)
+- [Pragmatic Institute](https://www.pragmaticmarketing.com/)
 - [Red Monk](https://redmonk.com)
 - [Recode](https://www.recode.net/)
 - [Der Spiegel](https://www.spiegel.de/)
 - [Süddeutsche](https://www.sueddeutsche.de/)
 - [The Guardian](https://www.theguardian.com/international)
 - [The Verge](https://www.theverge.com/)
+- [Vice](https://www.vice.com/)
 - [Wall Street Journal](https://www.wsj.com/news/rss-news-and-feeds)
-- [Pragmatic Institute](https://www.pragmaticmarketing.com/)
