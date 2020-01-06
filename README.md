@@ -98,7 +98,6 @@ Links:
 - http://www.webappsec.org/
 - http://www.welt.de/export/
 - http://www.wollmilchsau.de/
-- http://www.wosolldasallesenden.de/
 - [WRINT](http://www.wrint.de/)
 - [XKCD](http://xkcd.com/)
 - [9to5 Mac](https://9to5mac.com/)
