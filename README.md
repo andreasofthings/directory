@@ -131,6 +131,7 @@ Links:
 - [The Verge](https://www.theverge.com/)
 - [Vice](https://www.vice.com/)
 - [Wall Street Journal](https://www.wsj.com/news/rss-news-and-feeds)
+
 Companies:
 - [adidas](https://www.adidas.com)
 - [Allianz](https://www.allianz.de)
