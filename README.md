@@ -1,4 +1,5 @@
 # Directory
+
 Links:
 - [agilesysadmin](http://agilesysadmin.net/)
 - [all things d](http://allthingsd.com/)
@@ -131,3 +132,14 @@ Links:
 - [The Verge](https://www.theverge.com/)
 - [Vice](https://www.vice.com/)
 - [Wall Street Journal](https://www.wsj.com/news/rss-news-and-feeds)
+Companies:
+- [adidas](https://www.adidas.com)
+- [Allianz](https://www.allianz.de)
+- [Airbus](https://www.airbus.com)
+- [BayWa](https://www.baywa.de)
+- [BMW](https://www.bmw.de)
+- [Commerzbank](https://www.commerzbank.de)
+- [MAN](https://www.man.de)
+- [MTU](https://www.mtu.de)
+- [Siemens](https://www.siemens.de)
+- ...
