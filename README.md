@@ -1,144 +1,142 @@
-Links:
 # Directory
+Links:
   - [agilesysadmin](http://agilesysadmin.net/)
   - [all things d](http://allthingsd.com/)
   - http://berufung-selbststaendig.de/
   - http://blog.hays.de/
-- http://blog.recrutainment.de/
-- http://boerse.ard.de/
-- http://clairediazortiz.com/
-- http://creativecommons.org/
-- http://daringfireball.net/
-- http://feeds.schlaflosinmuenchen.com/
-- http://frank.geekheim.de/
-- http://google-opensource.blogspot.com/
-- http://imgriff.com/
-- http://jacobian.org/
-- http://jobtrainer-blog.de/
-- http://lifehacker.com/
-- http://lwn.net/
-- http://meedia.de/
-- [Metaebene](http://metaebene.me/)
-- http://moritzleuenberger.blueblog.ch/
-- [Netzpolitik.org](http://netzpolitik.org/)
-- http://opensource.com/
-- http://packetstormsecurity.org/
-- http://personalmarketing2null.de/
-- http://planet.debian.org/
-- http://pr-blogger.de/
-- http://psychologienachrichten.de/
-- http://rebellmarkt.blogger.de/
-- http://running.competitor.com/
-- http://runtrails.blogspot.com/
-- http://scienceblogs.de/
-- http://securityreason.com/
-- http://slashdot.org/
-- http://welt.de/
-- http://www.achtneun.com/
-- http://www.agilesoc.com/
-- http://www.alltagsforschung.de/
-- http://www.antibuerokratieteam.net/
-- http://www.basicthinking.de/
-- http://www.best-practice-business.de/
-- http://www.blatternet.de/
-- http://www.bundesregierung.de/
-- http://www.codeplex.com/
-- http://www.connectedmarketing.de/
-- http://www.dcrainmaker.com/
-- https://www.departmentofproduct.com/
-- http://www.der-postillon.com/
-- http://www.djangoproject.com/
-- http://www.entscheiderblog.de/
-- http://www.gizmodo.com/
-- http://www.gruenderszene.de/
-- http://www.guypo.com/
-- http://www.handelsblatt.com/
-- http://www.heute.de/
-- http://www.ieee.org/
-- http://www.isarblog.de/
-- http://www.jova-nova.com/
-- http://www.kerstin-hoffmann.de/
-- http://www.kraftfuttermischwerk.de/
-- http://www.laughingsquid.com/
-- http://www.lawblog.de/
-- http://www.linuxjournal.com/
-- http://www.lobbycontrol.de/blog/
-- http://www.macrumors.com/
-- http://www.manager-magazin.de/
-- http://www.motherboard.tv/
-- http://www.mucbook.de/
-- http://www.muenchen.info/
-- http://www.muenchenblogger.de/
-- http://www.muenchnerubahn.de/
-- http://www.nerdcore.de/
-- http://www.personalmarketingblog.de/
-- http://www.phdcomics.com/
-- http://www.pornoanwalt.de/
-- http://www.python.org/
-- http://www.rumohr.de/
-- http://www.runblogger.com/
-- http://www.schlaflosinmuenchen.com/
-- http://www.schleckysilberstein.com/
-- http://www.schneier.com/
-- http://www.securiteam.com/
-- http://www.slashdot.org/
-- http://www.spiegelfechter.com/
-- http://www.spvggunterhaching.de/
-- http://www.tagesschau.de/
-- http://www.techhive.com/
-- http://www.techmeme.com/
-- http://www.technet.com/
-- http://www.techradar.com/
-- http://www.the-future-of-commerce.com/
-- http://www.thomashutter.com/index.php/
-- http://www.toolblog.de/
-- http://www.viceland.com/
-- http://www.visualcapitalist.com/
-- http://www.webappsec.org/
-- http://www.welt.de/export/
-- http://www.wollmilchsau.de/
-- [WRINT](http://www.wrint.de/)
-- [XKCD](http://xkcd.com/)
-- [9to5 Mac](https://9to5mac.com/)
-- [Arstechnica](https://arstechnica.com/)
-- [Fefe](https://blog.fefe.de/)
-- [Cloudflare Blog](https://blog.cloudflare.com/)
-- [Consellation Research](https://www.constellationr.com/)
-- [Daily Fintech](https://dailyfintech.com/)
-- [Epicenter works](https://epicenter.works/)
-- [Finacial Cryptography](https://financialcryptography.com/)
-- [Github](https://github.com/)
-- [neumeier.org](https://neumeier.org/)
-- [No more cubes.](https://nomorecubes.net/)
-- [Techcrunch](https://techcrunch.com/)
-- [The Intercept](https://theintercept.com/)
-- [Android Authority](https://www.androidauthority.com/)
-- [The Economist](https://www.economist.com/rss)
-- [Engadget](https://www.engadget.com/)
-- [Fast Company](https://www.fastcompany.com/)
-- [Frankfurter Allgemeine](https://www.faz.net)
-- [Heise](https://www.heise.de)
-- [Methodisch Inkorrekt](https://www.minkorrekt.de/)
-- [The New York Times](https://www.nytimes.com/)
-- [One Graph](https://www.onegraph.com/)
-- [Pragmatic Institute](https://www.pragmaticmarketing.com/)
-- [Red Monk](https://redmonk.com)
-- [Recode](https://www.recode.net/)
-- [Der Spiegel](https://www.spiegel.de/)
-- [Süddeutsche](https://www.sueddeutsche.de/)
-- [The Guardian](https://www.theguardian.com/international)
-- [The Verge](https://www.theverge.com/)
-- [Vice](https://www.vice.com/)
-- [Wall Street Journal](https://www.wsj.com/news/rss-news-and-feeds)
-
+  - http://blog.recrutainment.de/
+  - http://boerse.ard.de/
+  - http://clairediazortiz.com/
+  - http://creativecommons.org/
+  - http://daringfireball.net/
+  - http://feeds.schlaflosinmuenchen.com/
+  - http://frank.geekheim.de/
+  - http://google-opensource.blogspot.com/
+  - http://imgriff.com/
+  - http://jacobian.org/
+  - http://jobtrainer-blog.de/
+  - http://lifehacker.com/
+  - http://lwn.net/
+  - http://meedia.de/
+  - [Metaebene](http://metaebene.me/)
+  - http://moritzleuenberger.blueblog.ch/
+  - [Netzpolitik.org](http://netzpolitik.org/)
+  - http://opensource.com/
+  - http://packetstormsecurity.org/
+  - http://personalmarketing2null.de/
+  - http://planet.debian.org/
+  - http://pr-blogger.de/
+  - http://psychologienachrichten.de/
+  - http://rebellmarkt.blogger.de/
+  - http://running.competitor.com/
+  - http://runtrails.blogspot.com/
+  - http://scienceblogs.de/
+  - http://securityreason.com/
+  - http://slashdot.org/
+  - http://welt.de/
+  - http://www.achtneun.com/
+  - http://www.agilesoc.com/
+  - http://www.alltagsforschung.de/
+  - http://www.antibuerokratieteam.net/
+  - http://www.basicthinking.de/
+  - http://www.best-practice-business.de/
+  - http://www.blatternet.de/
+  - http://www.bundesregierung.de/
+  - http://www.codeplex.com/
+  - http://www.connectedmarketing.de/
+  - http://www.dcrainmaker.com/
+  - https://www.departmentofproduct.com/
+  - http://www.der-postillon.com/
+  - http://www.djangoproject.com/
+  - http://www.entscheiderblog.de/
+  - http://www.gizmodo.com/
+  - http://www.gruenderszene.de/
+  - http://www.guypo.com/
+  - http://www.handelsblatt.com/
+  - http://www.heute.de/
+  - http://www.ieee.org/
+  - http://www.isarblog.de/
+  - http://www.jova-nova.com/
+  - http://www.kerstin-hoffmann.de/
+  - http://www.kraftfuttermischwerk.de/
+  - http://www.laughingsquid.com/
+  - http://www.lawblog.de/
+  - http://www.linuxjournal.com/
+  - http://www.lobbycontrol.de/blog/
+  - http://www.macrumors.com/
+  - http://www.manager-magazin.de/
+  - http://www.motherboard.tv/
+  - http://www.mucbook.de/
+  - http://www.muenchen.info/
+  - http://www.muenchenblogger.de/
+  - http://www.muenchnerubahn.de/
+  - http://www.nerdcore.de/
+  - http://www.personalmarketingblog.de/
+  - http://www.phdcomics.com/
+  - http://www.pornoanwalt.de/
+  - http://www.python.org/
+  - http://www.rumohr.de/
+  - http://www.runblogger.com/
+  - http://www.schlaflosinmuenchen.com/
+  - http://www.schleckysilberstein.com/
+  - http://www.schneier.com/
+  - http://www.securiteam.com/
+  - http://www.slashdot.org/
+  - http://www.spiegelfechter.com/
+  - http://www.spvggunterhaching.de/
+  - http://www.tagesschau.de/
+  - http://www.techhive.com/
+  - http://www.techmeme.com/
+  - http://www.technet.com/
+  - http://www.techradar.com/
+  - http://www.the-future-of-commerce.com/
+  - http://www.thomashutter.com/index.php/
+  - http://www.toolblog.de/
+  - http://www.viceland.com/
+  - http://www.visualcapitalist.com/
+  - http://www.webappsec.org/
+  - http://www.welt.de/export/
+  - http://www.wollmilchsau.de/
+  - [WRINT](http://www.wrint.de/)
+  - [XKCD](http://xkcd.com/)
+  - [9to5 Mac](https://9to5mac.com/)
+  - [Arstechnica](https://arstechnica.com/)
+  - [Fefe](https://blog.fefe.de/)
+  - [Cloudflare Blog](https://blog.cloudflare.com/)
+  - [Consellation Research](https://www.constellationr.com/)
+  - [Daily Fintech](https://dailyfintech.com/)
+  - [Epicenter works](https://epicenter.works/)
+  - [Finacial Cryptography](https://financialcryptography.com/)
+  - [Github](https://github.com/)
+  - [neumeier.org](https://neumeier.org/)
+  - [No more cubes.](https://nomorecubes.net/)
+  - [Techcrunch](https://techcrunch.com/)
+  - [The Intercept](https://theintercept.com/)
+  - [Android Authority](https://www.androidauthority.com/)
+  - [The Economist](https://www.economist.com/rss)
+  - [Engadget](https://www.engadget.com/)
+  - [Fast Company](https://www.fastcompany.com/)
+  - [Frankfurter Allgemeine](https://www.faz.net)
+  - [Heise](https://www.heise.de)
+  - [Methodisch Inkorrekt](https://www.minkorrekt.de/)
+  - [The New York Times](https://www.nytimes.com/)
+  - [One Graph](https://www.onegraph.com/)
+  - [Pragmatic Institute](https://www.pragmaticmarketing.com/)
+  - [Red Monk](https://redmonk.com)
+  - [Recode](https://www.recode.net/)
+  - [Der Spiegel](https://www.spiegel.de/)
+  - [Süddeutsche](https://www.sueddeutsche.de/)
+  - [The Guardian](https://www.theguardian.com/international)
+  - [The Verge](https://www.theverge.com/)
+  - [Vice](https://www.vice.com/)
+  - [Wall Street Journal](https://www.wsj.com/news/rss-news-and-feeds)
 Companies:
-- [adidas](https://www.adidas.com)
-- [Allianz](https://www.allianz.de)
-- [Airbus](https://www.airbus.com)
-- [BayWa](https://www.baywa.de)
-- [BMW](https://www.bmw.de)
-- [Commerzbank](https://www.commerzbank.de)
-- [MAN](https://www.man.de)
-- [MTU](https://www.mtu.de)
-- [Siemens](https://www.siemens.de)
-- ...
+  - [adidas](https://www.adidas.com)
+  - [Allianz](https://www.allianz.de)
+  - [Airbus](https://www.airbus.com)
+  - [BayWa](https://www.baywa.de)
+  - [BMW](https://www.bmw.de)
+  - [Commerzbank](https://www.commerzbank.de)
+  - [MAN](https://www.man.de)
+  - [MTU](https://www.mtu.de)
+  - [Siemens](https://www.siemens.de)
