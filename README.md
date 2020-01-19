@@ -1,9 +1,9 @@
-# Directory
 Links:
-- [agilesysadmin](http://agilesysadmin.net/)
-- [all things d](http://allthingsd.com/)
-- http://berufung-selbststaendig.de/
-- http://blog.hays.de/
+# Directory
+  - [agilesysadmin](http://agilesysadmin.net/)
+  - [all things d](http://allthingsd.com/)
+  - http://berufung-selbststaendig.de/
+  - http://blog.hays.de/
 - http://blog.recrutainment.de/
 - http://boerse.ard.de/
 - http://clairediazortiz.com/
