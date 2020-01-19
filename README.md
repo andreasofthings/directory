@@ -1,5 +1,4 @@
 # Directory
-
 Links:
 - [agilesysadmin](http://agilesysadmin.net/)
 - [all things d](http://allthingsd.com/)
