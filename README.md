@@ -1,3 +1,4 @@
+--- !directory.pramari.de/^readme
 # Directory
 Links:
   - [agilesysadmin](http://agilesysadmin.net/)
