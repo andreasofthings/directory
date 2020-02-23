@@ -8,6 +8,8 @@ Links:
   - Link: http://blog.hays.de/
   - Link: http://blog.recrutainment.de/
   - Link: http://boerse.ard.de/
+  - Link: https://www.business-punk.com/feed/
+    Name: Business Punk
   - Link: http://clairediazortiz.com/
   - Link: http://creativecommons.org/
   - Link: http://daringfireball.net/
