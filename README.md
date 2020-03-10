@@ -64,6 +64,8 @@ Links:
   - Link: http://www.isarblog.de/
   - Link: http://www.jova-nova.com/
   - Link: http://www.kerstin-hoffmann.de/
+  - Link: https://krebsonsecurity.com/
+    Name: Krebs on Security
   - Link: http://www.kraftfuttermischwerk.de/
   - Link: http://www.laughingsquid.com/
   - Link: http://www.lawblog.de/
