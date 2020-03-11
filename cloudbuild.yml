@@ -2,6 +2,9 @@ steps:
   - name: python:3.7
     args: ["python","-m","pip","install","markdown"]
     id: requirements
+  - name: gcr.io/cloud-builders/git
+    args: ['clone', 'https://github.com/andreasofthings/directory']
+    id: cloneDirectory
   - name: python:3.7
     args: ["python","-m","unittest","discover","--verbose","-s","./process/","-p","*_test.py"]
     id: unittest
