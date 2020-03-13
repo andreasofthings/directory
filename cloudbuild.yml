@@ -6,5 +6,17 @@ steps:
     args: ['clone', 'https://github.com/andreasofthings/directory']
     id: cloneDirectory
   - name: python:3.7
-    args: ["python","-m","unittest","discover","--verbose","-s","./process/","-p","*_test.py"]
-    id: unittest
+    args: ["python","process/sites.py"]
+    id: buildSite
+  - name: gcr.io/cloud-builders/git
+    args: ['add', 'sites.yaml']
+    id: addSites
+  - name: gcr.io/cloud-builders/git
+    args: ['commit', '-m' 'built sites.yaml']
+    id: commitSites
+  - name: gcr.io/cloud-builders/git
+    args: ['push']
+    id: pushSites
+    #  - name: python:3.7
+    # args: ["python","-m","unittest","discover","--verbose","-s","./process/","-p","*_test.py"]
+    # id: unittest

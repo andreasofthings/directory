@@ -1,5 +1,5 @@
 # Directory
-Links:
+Websites:
   - Link: http://agilesysadmin.net/
     Name: agilesysadmin
   - Link: http://allthingsd.com
@@ -13,7 +13,6 @@ Links:
   - Link: http://clairediazortiz.com/
   - Link: http://creativecommons.org/
   - Link: http://daringfireball.net/
-  - Link: http://feeds.schlaflosinmuenchen.com/
   - Link: http://frank.geekheim.de/
   - Link: http://google-opensource.blogspot.com/
   - Link: http://imgriff.com/
@@ -171,22 +170,30 @@ Links:
     Name: Vice
   - Link: https://www.wsj.com/news/rss-news-and-feeds
     Name: Wall Street Journal
-Companies:
   - Link: https://www.adidas.com
     Name: adidas
+    Category: Company
   - Link: https://www.allianz.de
     Name: Allianz
+    Category: Company
   - Link: https://www.airbus.com
     Name: Airbus
+    Category: Company
   - Link: https://www.baywa.de/
     Name: BayWa
+    Category: Company
   - Link: https://www.bmw.de/
     Name: BMW
+    Category: Company
   - Link: https://www.commerzbank.de/
     Name: Commerzbank
+    Category: Company
   - Link: https://www.man.de/
     Name: MAN
+    Category: Company
   - Link: https://www.mtu.de/
     Name: MTU
+    Category: Company
   - Link: https://www.siemens.de/
     Name: Siemens
+    Category: Company

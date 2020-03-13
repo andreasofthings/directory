@@ -5,14 +5,30 @@ import requests_cache
 
 from bs4 import BeautifulSoup
 
+import logging
+import argparse
+
+logging.getLogger().setLevel(logging.INFO)
+
+class SiteException(Exception):
+    pass
 
 class Site(object):
     headers = {"user-agent": "The Coolest Useragent"}
 
+    html = ""
+
     def __init__(self, url, *args, **kwargs):
-        self.html = requests.get(url, headers=self.headers).text
-        self.soup = BeautifulSoup(self.html, 'html.parser')
-        super().__init__(*args, **kwargs)
+
+        try:
+            self.html = requests.get(url, headers=self.headers).text
+        except requests.exceptions.ConnectionError as e:
+            logging.error("Failed to request %s: %s", url, e)
+        if self.html:
+            self.soup = BeautifulSoup(self.html, 'html.parser')
+            super().__init__(*args, **kwargs)
+        else:
+            raise SiteException
 
     @property
     def feedSoup(self):
@@ -88,15 +104,33 @@ def URLlist(filename):
     with open(filename) as urls:
         urlreader = yaml.load(urls)
         for url in urlreader['Websites']:
-            yield urlparse(url[0]).geturl()
+            logging.error(url)
+            yield urlparse(url['Link']).geturl()
 
 
 if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--topic',
+                        dest='topic',
+                        default='README.md',
+                        help='Input topic to process.')
+    parser.add_argument('--output',
+                        dest='output',
+                        default="sites.yaml",
+                        help="""GCS Path of the output file
+                        including filename prefix.""")
     websites = []
     requests_cache.install_cache('cache')
 
-    for url in URLlist("urls.yaml"):
-        site = Site(url)
+    known_args, pipeline_args = parser.parse_known_args(sys.argv)
+
+    for url in URLlist(known_args.topic):
+        try:
+            site = Site(url)
+        except SiteException:
+            continue
+
         try:
             websites.append(site.__dict__())
         except Exception as e:
@@ -105,7 +139,7 @@ if __name__ == '__main__':
             # print(websites[-1])
             # print(type(websites[-1]))
 
-    with open("sites.yaml", "w") as y:
+    with open(known_args.output, "w") as y:
         y.write(yaml.safe_dump(websites, default_flow_style=False))
 
     for site in websites:
