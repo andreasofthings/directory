@@ -1,12 +1,14 @@
 import sys
 import yaml
-import requests
-import requests_cache
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
 import logging
 import argparse
+
+import requests
+import requests_cache
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -19,9 +21,10 @@ class Site(object):
     html = ""
 
     def __init__(self, url, *args, **kwargs):
+        self.url = url
 
         try:
-            self.html = requests.get(url, headers=self.headers).text
+            self.html = requests.get(self.url, headers=self.headers).text
         except requests.exceptions.ConnectionError as e:
             logging.error("Failed to request %s: %s", url, e)
         if self.html:
@@ -61,13 +64,16 @@ class Site(object):
 
     def __dict__(self):
         return {
-            'url': str(url),
+            'url': str(self.url),
             'detail': {
                 'title': self.title,
                 'feeds': self.feedSoup,
                 'og': self.og
             }
         }
+
+    def __str__(self):
+        return str(self.__dict__())
 
 
 class Feed(object):
@@ -93,19 +99,18 @@ class Feed(object):
 #        'bozo_exception': 6
 
 
-def URLlist(filename):
+def SiteList(filename):
     """
-    List all URLs in urls.yaml
+    List all Sites in README.md
 
     .. todo::
         Sort and filter dupes.
     """
-    from urllib.parse import urlparse
     with open(filename) as urls:
-        urlreader = yaml.load(urls)
-        for url in urlreader['Websites']:
-            logging.error(url)
-            yield urlparse(url['Link']).geturl()
+        sitereader = yaml.load(urls, Loader=yaml.SafeLoader)
+        for site in sitereader['Websites']:
+            logging.error(site)
+            yield site
 
 
 if __name__ == '__main__':
@@ -125,19 +130,20 @@ if __name__ == '__main__':
 
     known_args, pipeline_args = parser.parse_known_args(sys.argv)
 
-    for url in URLlist(known_args.topic):
+    for site in SiteList(known_args.topic):
         try:
-            site = Site(url)
-        except SiteException:
-            continue
-
-        try:
-            websites.append(site.__dict__())
+            url = urlparse(site['Link']).geturl()
         except Exception as e:
-            print("EXCEPTION: ", e)
-            # print(e)
-            # print(websites[-1])
-            # print(type(websites[-1]))
+            logging.error(e)
+
+        if url:
+            try:
+                site = Site(url)
+                print(site)
+            except SiteException:
+                continue
+
+    sys.exit()
 
     with open(known_args.output, "w") as y:
         y.write(yaml.safe_dump(websites, default_flow_style=False))
