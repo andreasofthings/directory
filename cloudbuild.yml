@@ -1,18 +1,26 @@
 steps:
-  - name: python:3.7
-    args: ["python","-m","pip","install","markdown"]
-    id: requirements
+  - name: 'eu.gcr.io/$PROJECT_ID/python-builder' # Cloud Build automatically substitutes $PROJECT_ID for your Project ID
+    entrypoint: '/bin/bash'
+    args: ['-c','virtualenv /workspace/venv' ]
+    # Creates a Python virtualenv stored in /workspace/venv that will persist across container runs.
+    id: createVirtualEnv
+  - name: 'eu.gcr.io/$PROJECT_ID/python-builder'
+    entrypoint: 'venv/bin/pip'
+    args: ['install', '-V', '-r', 'requirements.txt']
+    id: setupRequirements
+    # Installs any dependencies listed in the project's requirements.txt.
   - name: gcr.io/cloud-builders/git
     args: ['clone', 'https://github.com/andreasofthings/directory']
     id: cloneDirectory
-  - name: python:3.7
-    args: ["python","process/sites.py"]
+  - name: 'eu.gcr.io/$PROJECT_ID/python-builder'
+    entrypoint: 'venv/bin/python'
+    args: ['process/sites.py']
     id: buildSite
   - name: gcr.io/cloud-builders/git
     args: ['add', 'sites.yaml']
     id: addSites
   - name: gcr.io/cloud-builders/git
-    args: ['commit', '-m' 'built sites.yaml']
+    args: ['commit', '-m', 'built sites.yaml']
     id: commitSites
   - name: gcr.io/cloud-builders/git
     args: ['push']

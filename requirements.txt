@@ -1,0 +1,9 @@
+markdown
+sphinx
+pyyaml
+beautifulsoup4
+requests
+requests_cache
+feedparser
+pyaml
+pyyaml

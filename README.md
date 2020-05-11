@@ -197,3 +197,27 @@ Websites:
   - Link: https://www.siemens.de/
     Name: Siemens
     Category: Company
+  - Link: https://www.nimble.com/blog/
+    Name: Nimble
+    Category: CRM
+  - Link: https://www.groovehq.com/blog
+    Name: Groove
+    Category: CRM
+  - Link: https://www.salesforce.com/blog/
+    Name: Salesforce
+    Category: CRM, Company
+  - Link: https://www.insightly.com/blog/
+    Name: Insightly
+    Category: CRM
+  - Link: Nutshell
+    Name: https://www.nutshell.com/blog/
+    Category: CRM
+  - Link: https://the56group.typepad.com/
+    Name: PGreenblog
+    Category: CRM
+  - Link: http://beagleresearch.com/
+    Name: Beagle Research
+    Category: CRM
+  - Link: https://blog.hubspot.com/
+    Name: HubSpot Blog
+    Category: CRM, Company
