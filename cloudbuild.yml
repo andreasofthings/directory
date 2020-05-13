@@ -1,3 +1,4 @@
+timeout: "20m0s"
 steps:
   - name: 'eu.gcr.io/$PROJECT_ID/python-builder' # Cloud Build automatically substitutes $PROJECT_ID for your Project ID
     entrypoint: '/bin/bash'
