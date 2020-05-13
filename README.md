@@ -209,8 +209,8 @@ Websites:
   - Link: https://www.insightly.com/blog/
     Name: Insightly
     Category: CRM
-  - Link: Nutshell
-    Name: https://www.nutshell.com/blog/
+  - Link: https://www.nutshell.com/blog/
+    Name: Nutshell
     Category: CRM
   - Link: https://the56group.typepad.com/
     Name: PGreenblog

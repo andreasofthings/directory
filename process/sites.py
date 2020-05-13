@@ -26,7 +26,9 @@ class Site(object):
         try:
             self.html = requests.get(self.url, headers=self.headers).text
         except requests.exceptions.ConnectionError as e:
-            logging.error("Failed to request %s: %s", url, e)
+            logging.error("requests.exceptions.ConnectionError: Failed to request %s: %s", url, e)
+        except requests.exceptions.MissingSchema:
+            logging.error("requests.exceptions.MissingSchema: Failed to request %s: %s", url, e)
         if self.html:
             self.soup = BeautifulSoup(self.html, 'html.parser')
             super().__init__(*args, **kwargs)
@@ -36,7 +38,6 @@ class Site(object):
     @property
     def feedSoup(self):
         result = []
-        # print(self.soup('head'))
         for link in self.soup('link'):
             if 'type' in link.attrs and (
                 'application/rss' in link['type'] or
@@ -52,7 +53,10 @@ class Site(object):
     @property
     def title(self):
         if self.soup("title"):
-            return u''.join(self.soup.title.string)
+            try:
+                return u''.join(self.soup.title.string)
+            except TypeError:
+                logging.error(type(self.soup.title.string))
 
     @property
     def og(self):
@@ -109,7 +113,7 @@ def SiteList(filename):
     with open(filename) as urls:
         sitereader = yaml.load(urls, Loader=yaml.SafeLoader)
         for site in sitereader['Websites']:
-            logging.error(site)
+            logging.debug(f"yielding {site}")
             yield site
 
 
@@ -134,14 +138,13 @@ if __name__ == '__main__':
         try:
             url = urlparse(site['Link']).geturl()
         except Exception as e:
-            logging.error(e)
+            logging.error(f"UrlParse caught exception {e}")
 
         if url:
             try:
                 site = Site(url)
-                print(site)
-            except SiteException:
-                continue
+            except SiteException as e:
+                logging.error(f"SiteException {e}")
 
     sys.exit()
 
