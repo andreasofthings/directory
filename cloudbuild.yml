@@ -16,4 +16,4 @@ steps:
     id: sphinxBuild
     # Installs any dependencies listed in the project's requirements.txt.
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "./build", "gs://directory.pramari.de"]
+    args: ["-m", "rsync", "-r", "-c", "-d", "./build/html", "gs://directory.pramari.de"]
