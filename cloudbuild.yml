@@ -13,7 +13,7 @@ steps:
   - name: 'eu.gcr.io/$PROJECT_ID/python-builder'
     entrypoint: 'venv/bin/sphinx-build'
     args: ['-M', 'html', '.', 'build']
-    id: setupRequirements
+    id: sphinxBuild
     # Installs any dependencies listed in the project's requirements.txt.
   - name: gcr.io/cloud-builders/gsutil
     args: ["-m", "rsync", "-r", "-c", "-d", "./build", "gs://directory.pramari.de"]
