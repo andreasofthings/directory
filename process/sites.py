@@ -15,6 +15,9 @@ logging.getLogger().setLevel(logging.INFO)
 class SiteException(Exception):
     pass
 
+async def SiteFactory(url):
+    return Site(url)
+
 class Site(object):
     headers = {"user-agent": "The Coolest Useragent"}
 
