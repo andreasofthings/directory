@@ -10,10 +10,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Directory Build
-        uses: andreasofthings/directory-build@v7 # Uses an action in the root directory
+        uses: andreasofthings/directory-build@v8 # Uses an action in the root directory
         id: hello
         with:
-          where-to: 'directory/'
+          docs: '.'
+          dest: 'build'
       # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+      # - name: Get the output time
+      #  run: echo "The time was ${{ steps.hello.outputs.time }}"
