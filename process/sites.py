@@ -125,7 +125,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--topic',
                         dest='topic',
-                        default='README.md',
+                        default='index.md',
                         help='Input topic to process.')
     parser.add_argument('--output',
                         dest='output',
@@ -142,14 +142,19 @@ if __name__ == '__main__':
             url = urlparse(site['Link']).geturl()
         except Exception as e:
             logging.error(f"UrlParse caught exception {e}")
+            continue
 
         if url:
             try:
                 site = Site(url)
             except SiteException as e:
                 logging.error(f"SiteException {e}")
+                continue
 
-    sys.exit()
+        if site:
+            print(type(site))
+            websites.append(site.__dict__())
+
 
     with open(known_args.output, "w") as y:
         y.write(yaml.safe_dump(websites, default_flow_style=False))

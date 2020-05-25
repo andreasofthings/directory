@@ -126,7 +126,7 @@ Websites:
     Name: Finacial Cryptography
   - Link: https://github.com/
     Name: Github
-  - Link: https://neumeier.org/
+  - Link: https://www.neumeier.org/
     Name: neumeier.org
   - Link: https://nomorecubes.net/
     Name: No more cubes.
