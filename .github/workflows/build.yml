@@ -8,9 +8,9 @@ jobs:
       # To use this repository's private action,
       # you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
       - name: Directory Build
-        uses: andreasofthings/directory-build@v3 # Uses an action in the root directory
+        uses: andreasofthings/directory-build@v4 # Uses an action in the root directory
         id: hello
         with:
           output: 'directory/'
