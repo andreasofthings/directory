@@ -10,8 +10,8 @@ Directory
    :maxdepth: 2
    :caption: Contents:
 
-    directory
-    code
+   directory
+   code
 
 Indices and tables
 ==================
