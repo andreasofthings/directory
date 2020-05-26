@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Directory Build
-        uses: andreasofthings/directory-build@v11 # Uses an action in the root directory
+        uses: andreasofthings/directory-build@v13 # Uses an action in the root directory
         id: hello
         with:
           docs: '.'
