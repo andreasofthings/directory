@@ -13,18 +13,23 @@ sites.yaml
 
 This file contains **processed** information, extraced from URLs listed above. Information contained therein covers, if available, the following:
 
-    title: The title of the site.
-    url: The url of the site, for reference.
-    feeds:
-      A list of feeds offered by this site.
-    og:
-      Open Graph Information.
+    title::
+        The title of the site.
+    url:: 
+        The url of the site, for reference.
+    feeds::
+        A list of feeds offered by this site.
+    og::
+        Open Graph Information.
 
 Tools
 -----
 
 This section is yet incomplete, but has a few rudimentary scripts to iterate over `sites.md`. In particular, these are:
 
-    sites.py: Collects Websites Information and associated Feed URLs
-    feeds.py: Collects Feed Details
-    entries.py: Processes Individual Entries from Feeds
+    sites.py::
+        Collects Websites Information and associated Feed URLs
+    feeds.py::
+        Collects Feed Details
+    entries.py::
+        Processes Individual Entries from Feeds
