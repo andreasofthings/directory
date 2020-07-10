@@ -225,3 +225,6 @@ Websites:
   - Link: https://blog.hubspot.com/
     Name: HubSpot Blog
     Category: CRM, Company
+  - Link: https://widersense.org/
+    Name: The corporate social mind
+    Category: Corporate, Mindfulness
