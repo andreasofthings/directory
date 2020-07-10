@@ -228,3 +228,9 @@ Websites:
   - Link: https://widersense.org/
     Name: The corporate social mind
     Category: Corporate, Mindfulness
+  - Link: https://benevity.com
+    Name: Powering Purpose-Driven Business
+    Category: Business, Corporate, Mindfulness
+
+
+
